@@ -1,0 +1,62 @@
+[
+    {
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro",
+        "name": "1_Intro",
+        "type": "folder",
+        "children": [],
+        "displayName": "Intro",
+        "modules": []
+    },
+    {
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary",
+        "name": "2_Supplementary",
+        "type": "folder",
+        "children": [
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/1_Business-and-Innovation-Basics.md",
+                "name": "1_Business-and-Innovation-Basics.md",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/2_A-Sample-Module.md",
+                "name": "2_A-Sample-Module.md",
+                "type": "file"
+            }
+        ],
+        "displayName": "Supplementary",
+        "modules": [
+            {
+                "text": "Business and Innovation Basics",
+                "link": "1_Business-and-Innovation-Basics"
+            },
+            {
+                "text": "A Sample Module",
+                "link": "2_A-Sample-Module"
+            }
+        ]
+    },
+    {
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core",
+        "name": "3_Core",
+        "type": "folder",
+        "children": [],
+        "displayName": "Core",
+        "modules": []
+    },
+    {
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development",
+        "name": "4_Professional-Development",
+        "type": "folder",
+        "children": [],
+        "displayName": "Professional Development",
+        "modules": []
+    },
+    {
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//5_Advanced",
+        "name": "5_Advanced",
+        "type": "folder",
+        "children": [],
+        "displayName": "Advanced",
+        "modules": []
+    }
+]

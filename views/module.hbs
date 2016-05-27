@@ -1,0 +1,37 @@
+
+<div class="sidebar">
+    <ul>
+        {{#each subheadings}}
+            <li><a href='{{this.anchor}}'>{{this.text}}</a></li>
+        {{/each}}
+    </ul>
+
+</div>
+<div class="module-body">
+    {{{content}}}
+</div>
+
+<script>
+
+    var sidebar = document.querySelector('.sidebar');
+    var throttleScroll = 0;
+    window.addEventListener('scroll', function (e) {
+        throttleScroll++;
+        var scrOfY = window.pageYOffset;
+
+        if (throttleScroll % 5 === 0) {
+
+            if (scrOfY > 100) {
+                sidebar.style.opacity = 0.2;
+            }
+            else {
+                sidebar.style.opacity = 1;
+            }
+        }
+
+        else if (scrOfY < 100) {
+            sidebar.style.opacity = 1;
+        }
+
+    });
+</script>

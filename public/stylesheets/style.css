@@ -1,0 +1,144 @@
+body {
+      font: 16px "proxima-nova", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: "Garamond", serif;
+}
+
+.chapter-title, h3, h4, h5, h6, p {
+    font-family: 'proxima-nova', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  transition: color 0.25s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+
+.banner {
+    background: black url('https://images.unsplash.com/photo-1429051781835-9f2c0a9df6e4?format=auto&auto=compress&dpr=2&crop=entropy&fit=crop&w=1436&h=957&q=80') no-repeat;
+    background-position: 0 -300px;
+    background-size: cover;
+    height: 300px;
+}
+.banner h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    font-family: 'proxima-nova', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.banner h2 {
+    margin: 0;
+    padding-top: 15px;
+    line-height: 1;
+    font-size: 24px;
+    color: #ccc;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.chapter-table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.chapter {
+    color: white;
+    text-align: center;
+}
+
+#chapter-1_Intro {
+    background: #757984;
+}
+
+#chapter-2_Supplementary {
+    background: #757984;
+}
+
+#chapter-3_Core {
+    background: #B76430;
+}
+#chapter-4_Professional-Development {
+    background: #00597F;
+}
+
+#chapter-5_Advanced {
+    background: #DF6259;
+}
+
+.module-main {
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+}
+.module-body.module-home {
+    max-width: 1024px;
+}
+
+.module-body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.module-body img {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-wrapper {
+    text-align: center;
+}
+
+.image-caption {
+    font-size: 12px;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+    max-width: 300px;
+    padding-top: 60px;
+    transition: opacity 0.5s;
+}
+
+.sidebar:hover {
+    opacity: 1 !important;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.sidebar ul li:hover {
+    background: #eee;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}

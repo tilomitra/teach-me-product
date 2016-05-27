@@ -1,0 +1,32 @@
+
+<div class="banner">
+    <h1>{{title}}</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+</div>
+<div class="module-body module-home">
+    <table class="chapter-table table">
+        <tbody>
+        {{#each headings}}
+            <tr>
+            <td class="chapter" id="chapter-{{this.name}}">
+                <h2 class="chapter-title">{{this.displayName}}</h2>
+            </td>
+            <td>
+                <ul class="module-main">
+                    {{#each this.modules}}
+                        <li>
+                            <h4>
+                                <a href="/modules/{{../this.name}}/{{this.link}}">{{this.text}}</a>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras purus dui, accumsan et commodo et, sagittis ut odio. Sed at aliquet felis, tincidunt placerat sem. Sed nec blandit felis.</p>
+                        </li>
+                    {{/each}}
+                </ul>
+            </td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+
+
+</div>
