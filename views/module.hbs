@@ -6,7 +6,6 @@
         {{/each}}
             <li><a href="#references">References</a></li>
     </ul>
-
 </div>
 <div class="module-body">
     <div class="module-content">
@@ -14,6 +13,18 @@
 
         </div> <!-- close the last open h2 div. see the marked renderer for headings for details. -->
     </div>
+    <hr/>
+        {{#if prevSubmodule}}
+            <p>
+                Previous submodule: <a href="{{prevSubmodule.link}}">{{prevSubmodule.text}}</a>
+            </p>
+        {{/if}}
+
+        {{#if nextSubmodule}}
+            <p>
+                Next submodule: <a href="{{nextSubmodule.link}}">{{nextSubmodule.text}}</a>
+            </p>
+        {{/if}}
     <hr/>
     <div class="module-footnotes">
         <h2 id="references">References</h2>

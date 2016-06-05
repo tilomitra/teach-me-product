@@ -1,16 +1,18 @@
+var CWD = require('process').cwd();
 var fs = require('fs');
 var express = require('express');
 var marked = require('marked');
 var path = require('path');
+var _ = require('underscore');
 var excerptHtml = require('excerpt-html');
-var CWD = require('process').cwd();
+var Headings = require(path.join(CWD, 'lib/headings.json'));
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', {
       title: 'Introduction to Software Project Management',
-      headings: require(path.join(CWD, 'lib/headings.json'))
+      headings: Headings
   });
 });
 
@@ -92,14 +94,22 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
         else {
             var html = marked(contents, { renderer: renderer });
-
-            console.log(footnotes);
-
+            var moduleDir = _.findWhere(Headings, {name: folder});
+            var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
+                return v.link === mod;
+            });
+            console.log(moduleDir.modules[submoduleIdx + 1] );
             res.render('module', {
                 content: html,
                 heading: heading,
                 subheadings: subheadings,
-                footnotes: footnotes
+                footnotes: footnotes,
+                currentModule: folder,
+                currentModule: mod,
+                prevSubmodule: moduleDir.modules[submoduleIdx - 1] || null,
+                nextSubmodule: moduleDir.modules[submoduleIdx + 1] || null
+                //nextModule: moduleDir.children[submoduleIdx - 1]
+                // prevModule:
             });
         }
     });
@@ -136,8 +146,8 @@ router.get('/compile', function (req, res) {
     res.status(200).json({done: true, message: 'Generated new headings'});
 });
 
-router.get('/getFiles', function (req, res) {
-    var j = dirTree(path.join(CWD, 'markdown'));
+router.get('/getFiles/:folder', function (req, res) {
+    var j = dirTree(path.join(CWD, 'markdown', req.params.folder || ''));
 
     return res.status(200).json(j);
 });
