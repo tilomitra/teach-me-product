@@ -27,11 +27,13 @@
         "modules": [
             {
                 "text": "Business and Innovation Basics",
-                "link": "1_Business-and-Innovation-Basics"
+                "link": "1_Business-and-Innovation-Basics",
+                "excerpt": "This is a sample excerpt for this markdown document."
             },
             {
                 "text": "A Sample Module",
-                "link": "2_A-Sample-Module"
+                "link": "2_A-Sample-Module",
+                "excerpt": "This is another sample excerpt for this other markdown document."
             }
         ]
     },

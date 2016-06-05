@@ -2,6 +2,7 @@ var fs = require('fs');
 var express = require('express');
 var marked = require('marked');
 var path = require('path');
+var excerptHtml = require('excerpt-html');
 var CWD = require('process').cwd();
 var router = express.Router();
 
@@ -21,7 +22,9 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
     var mdFolder = path.join(CWD, 'markdown/');
 
     var heading;
+    var moduleNumber;
     var subheadings = [];
+    var footnotes = [];
     var renderer = new marked.Renderer();
 
     renderer.image = function (href, title, text) {
@@ -30,28 +33,55 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
             "<p class='image-caption'>" + text + '</p>';
     }
 
+    renderer.link = function (href, title, text) {
+        lowerText = text.toLowerCase();
+        if (lowerText.indexOf('source') > -1) {
+            footnotes.push({
+                href: href,
+                title: title,
+                text: text,
+                number: footnotes.length
+            })
+            return '<a href="#fn-' + (footnotes.length-1) + '"><sup>' + (footnotes.length-1) + '</sup></a>';
+        }
+        else {
+            return '<a href="' + href + '">' + text + '</a>';
+        }
+
+    }
+
     renderer.heading = function (text, level) {
         var dashSpaced = text.replace(/\s+/g, '-').toLowerCase();
+        var submoduleNumber;
         if (level === 1) {
+            moduleNumber = parseInt(text.match(/(\d+)/)[0]);
             heading = {
+                moduleNumber: moduleNumber,
                 anchor: '#' + dashSpaced,
                 text: text
             };
             return '<h1 class="heading" id="' + dashSpaced + '">' + text + '</h1>';
         }
         else if (level === 2) {
+            submoduleNumber = subheadings.length+1;
             subheadings.push({
                 anchor: '#' + dashSpaced,
-                text: text
+                text: text,
+                moduleNumber: moduleNumber,
+                submoduleNumber: submoduleNumber
             });
-            return '<h2 class="subheading" id="' + dashSpaced + '">' + text + '</h2>';
+
+            if (submoduleNumber === 1) {
+                return '<div id="' + dashSpaced + '"><h2 class="subheading">' + moduleNumber + "." + submoduleNumber + " " + text + '</h2>';
+            }
+            else {
+                return '</div><div id="' + dashSpaced + '"><h2 class="subheading">' + moduleNumber + "." + submoduleNumber + " " + text + '</h2>';
+            }
         }
         else {
             return '<h' + level + ' id="' + dashSpaced + '">' + text + '</h' + level + '>';
         }
     };
-
-    console.log(path.join(mdFolder, folder, mod + '.md'));
 
     fs.readFile(path.join(mdFolder, folder, mod + '.md'), 'utf8', (err, contents) => {
         if (err) {
@@ -62,10 +92,14 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
         else {
             var html = marked(contents, { renderer: renderer });
+
+            console.log(footnotes);
+
             res.render('module', {
                 content: html,
                 heading: heading,
-                subheadings: subheadings
+                subheadings: subheadings,
+                footnotes: footnotes
             });
         }
     });
@@ -84,9 +118,13 @@ router.get('/compile', function (req, res) {
 
             fo.children.forEach(function (f) {
                 if (f.type === 'file') {
+                    var contentMd = fs.readFileSync(f.path, 'utf-8');
+                    var contentHtml = marked(contentMd);
+                    var excerpt = excerptHtml(contentHtml);
                     fo.modules.push({
                         text: f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
-                        link: f.name.replace('.md', '')
+                        link: f.name.replace('.md', ''),
+                        excerpt: excerpt
                     });
                 }
             });
@@ -95,42 +133,7 @@ router.get('/compile', function (req, res) {
     });
 
     fs.writeFileSync(filePath, JSON.stringify(headings, null, 4));
-
     res.status(200).json({done: true, message: 'Generated new headings'});
-
-
-    //
-    //
-    // var mdFolder = path.join(CWD, 'markdown/');
-    // var headingRenderer = new marked.Renderer();
-    // var headings = [];
-    // headingRenderer.heading = function (text, level) {
-    //     if (level === 1) {
-    //         headings.push({
-    //             text: text,
-    //             link: 'modules/' + text.split('-')[0].trim().replace(/\s+/g, '-').toLowerCase()
-    //         });
-    //     }
-    // };
-    //
-    // // var folders = dirTree(mdFolder);
-    // //
-    // // folders.children.forEach(function (f) {
-    // //     if (f.type === 'folder') {
-    // //         f.children.forEach(function )
-    // //     }
-    // // });
-    //
-    // readFiles(mdFolder, function (filename, content) {
-    //     var html = marked(content, { renderer: headingRenderer });
-    //
-    //
-    //
-    //
-    // }, function (err) {
-    //     res.status(400).json(err);
-    // });
-
 });
 
 router.get('/getFiles', function (req, res) {

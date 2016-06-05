@@ -1,10 +1,10 @@
-body {
+body, p {
       font: 16px "proxima-nova", Helvetica, Arial, sans-serif;
       line-height: 1.6;
 }
 
 h1, h2 {
-    font-family: "Garamond", serif;
+    font-family: serif;
 }
 
 .chapter-title, h3, h4, h5, h6, p {
@@ -89,7 +89,7 @@ a:hover {
 
 .module-body {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .module-body img {
@@ -141,4 +141,31 @@ a:hover {
     text-decoration: none;
     color: #333;
     cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    background: white;
+}
+.menu-items {
+    list-style: none;
+}
+
+.menu-item {
+    display: block;
+    padding: 5px 20px;
+}
+
+.module-footnotes {
+    font-size: 14px;
+}
+.module-footnotes-list {
+    padding-left: 15px;
+}
+.module-footnotes-list li {
+    padding-top: 5px;
+}
+
+.nav-active {
+    color: #00B7FF !important;
 }

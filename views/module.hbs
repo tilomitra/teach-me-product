@@ -2,19 +2,51 @@
 <div class="sidebar">
     <ul>
         {{#each subheadings}}
-            <li><a href='{{this.anchor}}'>{{this.text}}</a></li>
+            <li><a href='{{this.anchor}}'>{{moduleNumber}}.{{submoduleNumber}} {{text}}</a></li>
         {{/each}}
+            <li><a href="#references">References</a></li>
     </ul>
 
 </div>
 <div class="module-body">
-    {{{content}}}
+    <div class="module-content">
+        {{{content}}}
+
+        </div> <!-- close the last open h2 div. see the marked renderer for headings for details. -->
+    </div>
+    <hr/>
+    <div class="module-footnotes">
+        <h2 id="references">References</h2>
+        <ol class="module-footnotes-list">
+            {{#each footnotes}}
+                <li id="#fn-{{@index}}"><a href="{{link}}">{{title}}</a></li>
+            {{/each}}
+        </ol>
+
+    </div>
 </div>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js">
+
+</script>
 <script>
 
     var sidebar = document.querySelector('.sidebar');
     var throttleScroll = 0;
+    /**
+     * This part handles the highlighting functionality.
+     * We use the scroll functionality again, some array creation and
+     * manipulation, class adding and class removing, and conditional testing
+     */
+    var aChildren = $(".sidebar li").children(); // find the a children of the list items
+    var aArray = []; // create the empty aArray
+    for (var i=0; i < aChildren.length; i++) {
+        var aChild = aChildren[i];
+        var ahref = $(aChild).attr('href');
+        aArray.push(ahref);
+    } // this for loop fills the aArray with attribute href values
+
     window.addEventListener('scroll', function (e) {
         throttleScroll++;
         var scrOfY = window.pageYOffset;
@@ -27,11 +59,35 @@
             else {
                 sidebar.style.opacity = 1;
             }
+
+            var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
+            var windowHeight = $(window).height(); // get the height of the window
+            var docHeight = $(document).height();
+
+
+            for (var i=0; i < aArray.length; i++) {
+                var theID = aArray[i];
+                var divPos = $(theID).offset().top; // get the offset of the div from the top of page
+                var divHeight = $(theID).height(); // get the height of the div in question
+                if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
+                    $("a[href='" + theID + "']").addClass("nav-active");
+                } else {
+                    $("a[href='" + theID + "']").removeClass("nav-active");
+                }
+            }
+
+            if(windowPos + windowHeight == docHeight) {
+                if (!$(".sidebar li:last-child a").hasClass("nav-active")) {
+                    var navActiveCurrent = $(".nav-active").attr("href");
+                    $("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
+                    $(".sidebar li:last-child a").addClass("nav-active");
+                }
+            }
         }
 
         else if (scrOfY < 100) {
             sidebar.style.opacity = 1;
         }
-
     });
+
 </script>

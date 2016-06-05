@@ -1,10 +1,13 @@
+This is a sample excerpt for this markdown document.
+
+<!-- more -->
 # Module 2 - Business and Innovation Basics
 
 *Many of the products you know and love are mainstream successes not only because they are well designed, but also because the companies behind have figured out a viable business model to sustain and grow their efforts. Beyond just the end product, these companies have developed thriving businesses that allow them to design, build, sell, and support their products. As a PM, you will be making and guiding numerous product decisions that will influence your product’s outcome, and as a result your company's success. As was mentioned in module 1, it's important for you to be the voice of the business amongst your product team. For most PM roles, you don't need an MBA - it's the mindset that counts. By understanding business fundamentals and their applicability to your company and product, you can guide your team to make better product decisions. Don't forget, even the best designed products are not guaranteed to succeed in the market – think Microsoft’s [Zune](https://www.quora.com/What-are-some-startups-that-had-great-products-but-failed-because-they-didnt-market-them-well/answer/Michal-Hron?srid=oS3Q). Additional factors, especially those in the business domain, play a part. Some of these factors are in your control (e.g., pricing, promotion, etc.) while others are not (e.g., competition, customer preferences, etc.). We cover some business jargon and fundamentals in this module. You may not encounter these outright in your day-to-day as a PM; however, learning about them helps you get into a frame of mind where you consider business implications. *
 
 *Additionally, innovation is *the* buzzword of the 21st century. Before you roll your eyes, remember that in the past few decades the software and technology space has experienced significant innovation, be it the PC, the Internet, or the Smartphone. As software PMs you will play your part in this innovation as you strive to bring new products to market. It's therefore helpful for you to know some of the touted innovation frameworks to help you better understand how new products can impact existing markets and the drivers of new product adoption. Let's get to it!*
 
-## 2.1 Business fundamentals
+## Business fundamentals
 
 ### What is a business?
 
@@ -34,7 +37,7 @@ Here's an example of the mission, vision, and goals for [Tesla](https://www.tesl
 <img src="/images/tesla_2011_roadmap.png" width="466" height="305" />
 Sources: [1](https://www.teslamotors.com/about), [2](http://files.shareholder.com/downloads/ABEA-4CW8X0/0x0x494001/dd297293-ec2d-4dc5-8db4-63d491fb6bd0/Company_Overview_Q3_2011.pdf)
 
-## 2.2 Basic financials
+## Basic financials
 
 As a PM you don't need to be a financial wizard. It is helpful though to understand some basic financial terminology as it can come up directly or indirectly in the role.
 
@@ -43,7 +46,7 @@ One of the objectives of a business is to generate a **profit** - that is what y
 You may often hear partners in Finance or Marketing talk about the top line or the bottom line. The **top line** is the total revenue of a company while the **bottom line** refers to the net profit (or alternatively the net income, this is just the net profit without the tax subtracted from it). In the context of a software company, you may hear that sales grows the top line while other functions impact the bottom line (e.g., marketing runs a promotion that costs money). While you may not be out there selling, as a PM, you too can impact the top line by building great products that people want to use and pay for.
 
 Additionally, you may hear about:
-__Financial statements__ - "records that outline the financial activities of a business. Financial statements for businesses usually include: income statements, balance sheet, statements of retained earnings and cash flows" ([source](http://www.investopedia.com/terms/f/financial-statements.asp?layout=infini&v=5A&orig=1&adtest=5A)).
+__Financial statements__ - "records that outline the financial activities of a business. Financial statements for businesses usually include: income statements, balance sheet, statements of retained earnings and cash flows"[source](http://www.investopedia.com/terms/f/financial-statements.asp?layout=infini&v=5A&orig=1&adtest=5A, "Investopedia on Financial Statements").
 
 __Cash flow__ - this is the difference in the money coming in and out of a company. Ideally you want to be cash flow positive (i.e., more money is coming in than is going out); however, at times you are willing to be cash flow negative to succeed in the longer term.
 
@@ -61,7 +64,7 @@ This may sound extremely straight-forward and you may be rolling your eyes, but 
 
 For instance, Facebook was started in 2004, it eventually started generating revenue along the way as it casually experimented with ads, and in 2009 it became cash flow positive for the first time. After IPOing in 2012, it really took its monetization efforts up a notch and in 2015 had ~$17.9B in revenue and ~$3.7 in profit (source [1](https://en.wikipedia.org/wiki/History_of_Facebook), [2](http://investor.fb.com/releasedetail.cfm?ReleaseID=952040)). They weathered those years without revenue because they had multiple investors backing them who believe in the potential of their strategy to get a large engaged user base first, and then monetize it. On the other hand, if you neglect building a sustainable business, minding your finances, and figuring out how much customers actually like your product, you can end up in situations such as [Fab](http://fab.com/), which was valued at $900M and ended up selling for what's rumored to be $15M (source [1](http://www.bloomberg.com/news/articles/2015-03-03/fab-com-is-sold-in-billion-dollar-darling-s-spectacular-rise-and-fall), [2](http://www.businessinsider.com/how-billion-dollar-startup-fab-died-2015-2)).
 
-## 2.3 Simple analyses
+## Simple analyses
 
 To provide you with a starting point, the following are concepts or analyses that you may come across:
 
@@ -82,7 +85,7 @@ To reiterate, many PMs in their career may never compute a formal ROI or conduct
 + Consider when the possible benefits of a feature match can outweigh the investment of building and launching it (i.e., break-even)
 + The relative effort against the expected benefit (i.e., cost-benefit) of three new possible features to decide on the one that would give you the best relative outcome
 
-## 2.4 The business case
+## The business case
 
 A **business case** is the rational for why a new effort, such as a new product, feature, or project, should be undertaken. Historically, [comprehensive business cases](http://www.productmanagementschool.com/w1/Product_Management_During_Business_Case_Phase) were developed prior to most significant efforts and these lengthy documents worked well with the [Waterfall approach](https://en.wikipedia.org/wiki/Waterfall_model) to software development where steps were linear and sequenced. They contained details such as market analysis, proposed product descriptions, multi-year financial projections, implementation plans, and an assessment of risks, to help guide a decision making.
 
@@ -115,7 +118,7 @@ Additional reading:
 -   [8 Steps To Create A Business Case That Sells](http://streetsmartproductmanager.com/8-steps-to-create-a-business-case-that-sells/) by Shardul Mehta
 -   [The 60-Second Business Case](http://pragmaticmarketing.com/resources/the-60-second-business-case) by Jason Brett
 
-## 2.5 Businesses exist in a market
+## Businesses exist in a market
 
 As we mentioned in Module 1, you should know the space - this includes your industry and direct and/or indirect competitors. While individual customer interactions can help expose learning at a micro-level, by going top-down and looking at the industry you can assess macro-level shifts and what they mean to your product and offering. For instance, Uber is racing to enter the self-driving car because they realize how technological change could both benefit or threaten their model, depending on how they approach it. Likewise, competition can be a great force for spurring innovation and while you don't want to over-obsess with what others are doing, turning a blind eye can be detrimental as you may miss major launches or realize their impact too late (e.g., case in point: [BlackBerry versus the iPhone](http://www.forbes.com/sites/parmyolson/2015/05/26/blackberry-iphone-book/#3056ce4e4547)). Long-story short, as a PM strive to:
 
@@ -138,7 +141,7 @@ As we mentioned in Module 1, you should know the space - this includes your indu
 
 -   How do customers perceive them versus your company/offering?
 
-## 2.6 Business Models and the Business Model Canvas
+## Business Models and the Business Model Canvas
 
 A **business model** describes how an "organization creates, delivers, and captures value" ([source](https://en.wikipedia.org/wiki/Business_model)). Learn more about well-known business models [here](http://articles.bplans.co.uk/starting-a-business/examples-of-well-known-business-models/1040) and [here](http://thenextweb.com/entrepreneur/2011/05/25/the-9-types-of-online-business-models-which-one-do-you-use/#gref).
 
@@ -166,7 +169,7 @@ If you're interested in learning more about software business models, read the f
 
 -   Enabling sustainable businesses on the app store ([Part 1](http://stratechery.com/2013/papering-over-app-store-problems/), [Part 2a](http://stratechery.com/2013/casual-gaming-is-a-sustainable-business-but-not-a-platform-differentiator/), [Part 2b](http://stratechery.com/2013/additional-notes-on-casual-games/), [Part 3](http://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store)) by Ben Thompson
 
-## 2.7 The simple questions you should know
+## The simple questions you should know
 
 Based on everything we've covered so far, it's important as a PM that you know the answers to the questions below for your company. It will help you better understand the context of your company objectives, and also better ensure that you make product decisions factor in the way your company does business and tries to further its efforts.
 
@@ -194,7 +197,7 @@ __How has this value capture been trending across your company's offerings?__
 
 Taking a look at a single business unit at Intuit, say the Small Business Group which offers notable products such as [QuickBooks Desktop](http://quickbooks.intuit.com/premier/) and QuickBooks Online, you see some interesting trends. Taking a look at [quarterly reports](http://investors.intuit.com/financial-information/quarterly-reports/default.aspx), yes, as expected, online subscriptions are growing rapidly as there is a push in the industry towards the cloud. This push is motivated by customer benefit (access to data from anywhere, powerful integration with other complementary cloud-based products such as payroll and payments, etc.) as well as business benefit (e.g., a monthly subscription model creates much more predictable revenue, online allows easier cross-selling of complementary products). That said, for individuals not familiar with the space, you might think that no one uses desktop software anymore. In reality, Intuit has several million active QuickBooks Desktop customers and the number of new desktop sales are not falling off as quickly as one may expect ([source](http://www.sleeter.com/blog/2014/10/quickbooks-online-and-quickbooks-desktop/)). One may think that to shift desktop customers to the cloud (QuickBooks Online),you should do away with desktop software entirely. But, by bringing in a balanced business and product perspective you realize that it's a stable and sizeable source of revenue, and a beloved product for many, so your business and product strategy must at least focus on maintenance and support - at least for the foreseeable future.
 
-## 2.8 Diffusion and adoption of innovation
+## Diffusion and adoption of innovation
 
 Everett Rogers popularized the following model, often called Rogers' Bell Curve, to explain how new ideas and technologies are adopted. It suggests that a market can be segmented into five major segments each with distinct behaviours and preferences, and that adoption of new technologies typically occurs moving from left to right in the model (i.e., first "innovators" use the product, then "early adopters", and so on).
 
@@ -232,7 +235,7 @@ Taking this further, Moore asserted that "the chasm model is a great fit for B2B
 
 If you want to see the chasm theory in practice in a consumer market, and have a laugh, watch [this](https://www.youtube.com/watch?v=izP5n1SBEaI).
 
-## 2.9 Disruptive innovation
+## Disruptive innovation
 
 The last concept covered in this module is that of disruptive innovation which is an "innovation that creates a new market and value network and eventually disrupts an existing market and value network, displacing established market leaders and alliances". This concept was popularized by Clayton Christensen in his book [The Innovator's Dilemma](http://www.amazon.com/Innovators-Dilemma-Revolutionary-Change-Business/dp/0062060244/ref=sr_1_1?ie=UTF8&qid=1463427537&sr=8-1&keywords=innovators+dilemma).
 
@@ -248,7 +251,7 @@ Interested in learning more, read the following:
 
 -   [This article](http://www.svpg.com/product-vs-it-mindset) discusses how the stifling of innovation can be avoided at companies
 
-## 2.10 Optional frameworks and concepts
+## Optional frameworks and concepts
 
 If the business frameworks so far have piqued your interest, below are a few more frameworks and concepts that may be of interest. You will almost never pull these out and explicitly work through them as a PM. However, they can provide structure and a starting point for you to assess industries, competitors, or companies.
 
