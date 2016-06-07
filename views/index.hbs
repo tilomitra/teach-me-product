@@ -4,22 +4,33 @@
     <h2>Lorem ipsum dolor sit amet.</h2>
 </div>
 <div class="module-body module-home">
+
     <table class="chapter-table table">
         <tbody>
         {{#each headings}}
             <tr>
             <td class="chapter" id="chapter-{{this.name}}">
-                <h2 class="chapter-title">{{this.displayName}}</h2>
+                <h3 class="chapter-title">{{this.displayName}}</h3>
             </td>
-            <td>
+            <td class="chapter-contents">
                 <ul class="module-main">
                     {{#each this.modules}}
-                        <li>
-                            <h4>
-                                <a href="/modules/{{../this.name}}/{{this.link}}">{{this.text}}</a>
-                            </h4>
-                            <p>{{this.excerpt}}</p>
-                        </li>
+                        {{#unless draft}}
+                            <li>
+                                <h4 class="chapter-contents-title">
+                                    <a href="/modules/{{../../this.name}}/{{../this.link}}">{{../this.text}}</a>
+                                </h4>
+                                <p>{{../this.excerpt}}</p>
+                            </li>
+                        {{else}}
+                            <li>
+                                <h4 class="chapter-contents-title">{{../this.text}}</h4>
+
+                                <p>{{../this.excerpt}}</p>
+                            </li>
+
+                        {{/unless}}
+
                     {{/each}}
                 </ul>
             </td>

@@ -133,6 +133,7 @@ router.get('/compile', function (req, res) {
                     var excerpt = excerptHtml(contentHtml);
                     fo.modules.push({
                         text: f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
+                        draft: f.name.indexOf('draft') > -1 ? true : false,
                         link: f.name.replace('.md', ''),
                         excerpt: excerpt
                     });

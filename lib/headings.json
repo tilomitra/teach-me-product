@@ -3,9 +3,33 @@
         "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro",
         "name": "1_Intro",
         "type": "folder",
-        "children": [],
+        "children": [
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro/1_Welcome-to-Teach-Me-Product.md",
+                "name": "1_Welcome-to-Teach-Me-Product.md",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro/2_Introduction-to-product-management.md",
+                "name": "2_Introduction-to-product-management.md",
+                "type": "file"
+            }
+        ],
         "displayName": "Intro",
-        "modules": []
+        "modules": [
+            {
+                "text": "Welcome to Teach Me Product",
+                "draft": false,
+                "link": "1_Welcome-to-Teach-Me-Product",
+                "excerpt": "Author: TBD"
+            },
+            {
+                "text": "Introduction to product management",
+                "draft": false,
+                "link": "2_Introduction-to-product-management",
+                "excerpt": "Author: TBD"
+            }
+        ]
     },
     {
         "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary",
@@ -27,11 +51,13 @@
         "modules": [
             {
                 "text": "Business and Innovation Basics",
+                "draft": false,
                 "link": "1_Business-and-Innovation-Basics",
                 "excerpt": "This is a sample excerpt for this markdown document."
             },
             {
                 "text": "A Sample Module",
+                "draft": false,
                 "link": "2_A-Sample-Module",
                 "excerpt": "This is another sample excerpt for this other markdown document."
             }
@@ -41,9 +67,22 @@
         "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core",
         "name": "3_Core",
         "type": "folder",
-        "children": [],
+        "children": [
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/1draft_Coming-soon.md",
+                "name": "1draft_Coming-soon.md",
+                "type": "file"
+            }
+        ],
         "displayName": "Core",
-        "modules": []
+        "modules": [
+            {
+                "text": "Coming soon",
+                "draft": true,
+                "link": "1draft_Coming-soon",
+                "excerpt": "This is a module that is coming soon."
+            }
+        ]
     },
     {
         "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development",

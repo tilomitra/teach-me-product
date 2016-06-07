@@ -202,7 +202,7 @@ Taking a look at a single business unit at Intuit, say the Small Business Group 
 Everett Rogers popularized the following model, often called Rogers' Bell Curve, to explain how new ideas and technologies are adopted. It suggests that a market can be segmented into five major segments each with distinct behaviours and preferences, and that adoption of new technologies typically occurs moving from left to right in the model (i.e., first "innovators" use the product, then "early adopters", and so on).
 
 <img src="https://upload.wikimedia.org/wikipedia/en/4/45/DiffusionOfInnovation.png" width="331" height="204" />
-[Source](https://en.wikipedia.org/w/index.php?curid=11484459)
+[Wikipedia's Diffusion of Innovation](https://en.wikipedia.org/w/index.php?curid=11484459)
 
 This model was then adopted by Geoffrey Moore in his popular book read [Crossing the Chasm](http://www.amazon.com/Crossing-Chasm-3rd-Disruptive-Mainstream/dp/0062292986/ref=sr_1_1?ie=UTF8&qid=1463420989&sr=8-1&keywords=crossing+the+chasm) which focuses on how to market and sell high-tech products to the masses. Moore suggested that a chasm exists which technology entrepreneurs should be aware, specifically that what it takes to get "Innovators" and "Early Adopters" on board will not work for the "Early Majority" onwards.
 
