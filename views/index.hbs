@@ -1,7 +1,8 @@
 
 <div class="banner">
     <h1>{{title}}</h1>
-    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h2>Learn the fundamentals of software product management.</h2>
+    <a href="/modules/1_Intro/1_Welcome-to-Teach-Me-Product" class="btn btn-primary btn-lg">Start with Chapter 1</a>
 </div>
 <div class="module-body module-home">
 
@@ -20,13 +21,13 @@
                                 <h4 class="chapter-contents-title">
                                     <a href="/modules/{{../../this.name}}/{{../this.link}}">{{../this.text}}</a>
                                 </h4>
-                                <p>{{../this.excerpt}}</p>
+                                <p class="excerpt">{{../this.excerpt}}</p>
                             </li>
                         {{else}}
                             <li>
+                                <span class="pull-right coming-soon">Coming Soon</span>
                                 <h4 class="chapter-contents-title">{{../this.text}}</h4>
-
-                                <p>{{../this.excerpt}}</p>
+                                <p class="excerpt">{{../this.excerpt}}</p>
                             </li>
 
                         {{/unless}}

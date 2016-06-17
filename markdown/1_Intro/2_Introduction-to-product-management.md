@@ -1,5 +1,5 @@
-Author: TBD
-
+Excerpt TBD
+<!-- more -->
 # Module 2 - Introduction to product management
 
 *Facebook. Google Search. TurboTax. Dropbox. These are software products you’ve all heard of or use, and products that were made mainstream successes through hours and hours of planning, designing, building, and optimization. Product management plays a crucial role in this journey and is equally rewarding and challenging. So let’s get started exploring product management!*
@@ -26,7 +26,7 @@ Product management is an essential practice in software companies and can includ
 
 In larger organizations, product management is typically a distinct function that works with other functions such as Engineering, Design, Marketing, etc. In much smaller companies, say a 5-person startup, functions may not be as well defined, as everyone is wearing multiple hats and duties are more fluid. In this case, product management duties could be done by one or more people.
 
-Further reading on product management and its role in an organization:
+*Further reading on product management and its role in an organization:*
 -   [Why Companies Need Full-Time Product Managers](https://www.smashingmagazine.com/2014/09/why-companies-need-full-time-product-managers/) by Rian van der Merwe
 -   [The Black Box of product management](https://medium.com/swlh/the-black-box-of-product-management-3feb65db6ddb#.6cj7ysbel) by Brandon Chu
 -   [What is product management?](http://blog.sueraisty.com/what-is-product-management/) by Sue Raisty
@@ -42,7 +42,7 @@ The following individuals are usually a part of the core product team:
 -   *Designer* - Leads interaction and visual design efforts. Interaction/User Experience design focuses on understanding mental models and workflows to craft an ideal user experience. The work involved with this includes planning and testing experiences, mapping out flows, and wireframing low-fidelity mock-ups. Visual design focuses on the actual look and feel of the product or feature. The work involved with this includes creating high-fidelity designs or prototypes, animations, etc. In some organizations, a single Designer may focus on both interaction and visual design as part of one team, while in other organizations there may be one Interaction/User Experience Designer supporting two teams, while one Visual Designer supports four teams.
 
 <img src="/images/inter_visual_design.png" width="466" height="322" />
-*[Adapted from Zia Su](https://ziasu.wordpress.com/2016/05/01/seesaw/#more-728))*
+*[Interaction and visual design compared (Adapted from the work of Zia Su)](https://ziasu.wordpress.com/2016/05/01/seesaw/ "Caption")*
 
 -   *Lead Engineer* - This is usually a senior Engineer. They partner with the PM to lead the technical implementation and technical design (e.g., software architecture), manage Engineering resources, and provide a perspective effort for technical items. They may also be a key member in product discovery efforts (i.e., figuring out what the product should be) as they can help contribute perspectives on technical possibilities and complexity.
 
@@ -52,9 +52,9 @@ The following individuals are usually a part of the core product team:
 
 Additional roles may provide support to the core product team described above. These roles include:
 
--   *Analytics Analyst* - These are members of a larger analytics team that serve teams such as Product and Marketing, to provide analytics support. They help with tracking, processing, and analyzing analytics data.
-
 -   *Project / Delivery Manager* - They help coordinate both across multiple product teams and within individual product teams; removing obstacles, tracking dependencies and progress towards milestones, and implementing process improvement efforts. It's worthwhile to note that people often confused Product and Project Managers. Looking at them side-by-side, **Product Managers** focus on building the right product; and to so focus on creating a product strategy, conducting customer research, ideating solutions, defining requirements, and helping their teams to develop the product. **Project Managers** focus on ensuring projects (i.e., time-boxed efforts such as a new product launch or the migration of user data to a new system) are completed on time and within budget; and to do so they focus on adjusting scope, managing resources, coordinating across-teams, tracking and reporting status, and mitigating risk. Read more about the difference between the two roles [here](https://www.productmanagerhq.com/2014/07/product-manager-vs-project-manager/).
+
+-   *Analytics Analyst* - These are members of a larger analytics team that serve teams such as Product and Marketing, to provide analytics support. They help with tracking, processing, and analyzing analytics data. They often also help in making data visualizations (e.g., dashboards) and reports to share metrics that are of interest to the product team.
 
 -   *Product Marketing Manager* - They work mainly with Marketing and Sales, but also with product management to ensure products are positioned correctly in the market to appeal to target segments while appropriately differentiating from competitors through messaging and promotion. Learn more about the role [here](http://labs.openviewpartners.com/role-of-product-marketing-in-your-startup/) and how it differs from product management [here](https://www.productmanagerhq.com/2015/02/difference-between-product-manager-and-product-marketing-manager/).
 
@@ -77,7 +77,7 @@ It's worthwhile to also note that PMS may partner closely with the following tea
 
 -   *Finance* - Focuses on managing, reporting, and projecting finances for the company (e.g., how many paid subscribers do we have, how much reoccurring monthly revenue do we project, and what are our expenses).
 
-Learn more about how others organize and adapt their product teams:
+*Learn more about how others organize and adapt their product teams:*
 -   [We’ve Changed Our Product Team Structure 4 Times: Here’s Where We Are Today](https://open.buffer.com/product-team-evolution/) by Courtney Seiter
 -   [What Your Product Team Says About Your Company Values](http://www.producttalk.org/2015/10/ideal-product-team/) by Teresa Torres
 
@@ -87,17 +87,17 @@ Learn more about how others organize and adapt their product teams:
 The software Product Manager role is unique and multi-faceted; straddling and at the intersection of business, design, and technology. It focuses on understanding customers through qualitative and quantitative means, defining requirements, and facilitating the product team's efforts to translate these insights to build experiences that deliver customer value. In a nutshell, you're responsible for building the right product, delivering it, and continuing to improve it.
 
 <img src="/images/what_is_pm.png" width="266" height="218" />
-[Source](http://www.mindtheproduct.com/wp-content/uploads/2011/07/what_is_a_product_manager.png)
+[*PMs are at the intersection (Source: Mind The Product*](http://www.mindtheproduct.com/wp-content/uploads/2011/07/what_is_a_product_manager.png "Caption")
 
 The PM role varies organization-to-organization due to differences such as company size, type of product, and culture. You need to consider both a high-level strategic view on what to do, but also the low-level tactical view on how to execute. In terms of scope, a PM may be responsible for an entire product (e.g., you might be the sole PM for the [Mint mobile app](https://itunes.apple.com/ca/app/mint-money-manager-budget/id300238550?mt=8)), a part of a product (e.g., the [News Feed](https://www.facebook.com/business/news/News-Feed-FYI-A-Window-Into-News-Feed) feature of Facebook), or at times possibly even several products.
 
 As a PM, the major aspects you're responsible for include:
 
 ### Being the voice of the customer
-**Learn:** Your greatest responsibility as a PM is to deliver value to customers through the product. To ensure you can do this you need to deeply understand customers' needs, behaviours, and workflows and become the go-to expert on this.
+*Learn:* Your greatest responsibility as a PM is to deliver value to customers through the product. To ensure you can do this you need to deeply understand customers' needs, behaviours, and workflows and become the go-to expert on this.
 
-> No matter how good the team… if we’re not solving the right problem, the project fails.
-> – Woody Williams
+> "No matter how good the team… if we’re not solving the right problem, the project fails."
+> –Woody Williams
 
 Customer learning is done in multiple ways, including but not limited to:
 -   Site visits - this means visiting a customer at their place of work, home, etc., whatever is relevant to your application, in order to: observe them in their environment, build empathy by understanding their experiences and needs, and learn more about their workflow and behaviours
@@ -107,19 +107,19 @@ Customer learning is done in multiple ways, including but not limited to:
 
 Note that this doesn't mean you build exactly what a customer tells you they want. Instead when connecting with customers, you're trying to more deeply understanding aspects such as their behaviours, workflows, and pains to find insight into what will actually provide them value. [Henry Ford](https://en.wikipedia.org/wiki/Henry_Ford) perhaps said it best when he stated: "If I had asked people what they wanted, they would have said faster horses."
 
-**Share:** To build the best possible product, the entire team - from Designers to Developers - need to be informed on customer needs. One way to do this is to bring along team members to customer interviews. However, it's not possible or advised to bring everyone along to every customer session (imagine 1 customer being interviewed by 7 of you!). You can also hold debriefs after customer sessions with your team to discuss and synthesize learnings.
+*Share:* To build the best possible product, the entire team - from Designers to Developers - need to be informed on customer needs. One way to do this is to bring along team members to customer interviews. However, it's not possible or advised to bring everyone along to every customer session (imagine 1 customer being interviewed by 7 of you!). You can also hold debriefs after customer sessions with your team to discuss and synthesize learnings.
 
 You also need to champion sharing through the organization, a key part of which is skillfully articulating how your solution will address the customer pain and ensure that others, all the way from senior leadership to front-line Customer Care agents, know too. This shared understanding across the organization helps ensure actions and decision making are more aligned. Some ways to share this include sending out a Product Brief for an upcoming feature, or demoing a new feature during a Product Review session.
 
-**Leverage:** Beyond learning and sharing, you need to ensure decision-making weighs the customer implication. E.g., An unforeseen issue comes up during development and your Engineering team asks, “What should we do? Option A, B, or C?” One of the first things you should ask is, “What is the impact on the user for each option?”
+*Leverage:* Beyond learning and sharing, you need to ensure decision-making weighs the customer implication. E.g., An unforeseen issue comes up during development and your Engineering team asks, “What should we do? Option A, B, or C?” One of the first things you should ask is, “What is the impact on the user for each option?”
 
 Note: Customer-first focus is what makes products great, and excellent Product Managers embed this focus in the entire team so when team members are making decisions or leading discussions they are always thinking: "what matters for the customer?".
 
 ### Being the voice of the business
 Yes, customers always come first but you also need to consider business objectives because if you don't, you might just go out of business and then customers wouldn't get your intended benefit. In order for you to deliver value to customers long-term, ideally sooner rather than later you need to figure out how to do it in a feasible way. For this reason, it's vital that you understand the business strategy and objectives and ensure that your product efforts (e.g., planning what to build in the future, measuring product success, etc.) ladder up to these. For example, one of your company's key business metrics for the year might be to grow active users to 1 million users from the current 200k user mark. It's likely detrimental then if you commit most effort to building features to improve customer invoicing if it's never been demonstrated that this leads to any user growth or is a barrier in user adoption. Instead, you might explore promising opportunities such as streamlining the sign-up flow or testing a new refer-a-friend feature.
 
-> "The essence of strategy is choosing what not to do"
-> - Michael Porter
+> "The essence of strategy is choosing what not to do."
+> -Michael Porter
 
 In this regard, you should be knowledgeable about the company's mission, vision, goals, business objectives, and business model. You should also understand the economics of your product. As you come up with ideas, you should craft a business case around it to consider and justify the investment of resources and time.
 
@@ -127,7 +127,7 @@ Note that it is also possible to influence business objectives, and here is wher
 
 ### Knowing the space
 What are the trends? This can be broad and include things like:
--   *New technology adoption* - Aare users adopting new technologies (e.g., smartwatches, VR devices, IOT, etc.) and what might be the implications and opportunities for you? Facebook was mindful of the rapid adoption of mobile devices and committed resources to creating a great mobile experience. By the end of 2014, 85% of monthly active users access Facebook through mobile and 70% of Facebook's ad revenue comes from mobile ([source](http://www.businessinsider.com/facebook-daily-active-users-q4-2014-2015-1)).
+-   *New technology adoption* - Aare users adopting new technologies (e.g., smartwatches, VR devices, IOT, etc.) and what might be the implications and opportunities for you? Facebook was mindful of the rapid adoption of mobile devices and committed resources to creating a great mobile experience. By the end of 2014, 85% of monthly active users access Facebook through mobile and 70% of Facebook's ad revenue comes from mobile[source](http://www.businessinsider.com/facebook-daily-active-users-q4-2014-2015-1 "More Than 80% Of Facebook's Daily Users Are Mobile").
 -   *Policy* - Is relevant policy changing or possible to shift? For example, if you're AirBnB, something like [Prop F](http://www.latimes.com/business/technology/la-fi-tn-airbnb-prop-f-san-francisco-20151029-htmlstory.html) could have a significant impact on you.
 -   *Consumer preferences* - How are relevant consumer preferences changing and what's driving them? Let's say you're in the business of selling clothes and data suggests that consumers are preferring to try clothing in-store to determine the right fit, and purchase online so they can explore designs and compare prices. You may want to then better facilitate the experience through your product.
 -   *Shifts in labor, practices, business models, etc.* - Are models in an entire space changing? For example, with the rapid growth in self-employed workers, Intuit expanded its QuickBooks Online offering to include [QuickBooks Online Self-Employed](http://marketmadhouse.com/intuit-growing-with-the-freelance-economy/) so bookkeeping needs for these workers are met.
@@ -143,8 +143,8 @@ A core part of the PM role is to help the team focus on the right things. This c
 
 *Dig deeper into the details*. Understand how you might deliver the value, how you'll know once you've succeeded, and how to realize this through a launched feature or product. When figuring these details outs, always try to (1) lead with a hypothesis and (2) validate with data (this is both quantitative and qualitative). Leading with a hypothesis means that instead of thinking of an idea (e.g., people want to be able to order Pet Food online and would pay a premium for it), believing that it's true without much substantiation, and moving forward to build, you instead come up with hypotheses first. For instance, you might start with hypotheses that: (1) I think people would like to order Pet Food online and (2) assuming they do, they would be willing to pay a premium for it (since this is the only way you could make it a viable business). You would then test these hypotheses (we explore techniques at length in future modules) with a possible combination of qualitative and quantitative data, and running tests as necessary (e.g., gather data on price sensitivity from running a small test with users you recruit in a single city placing real orders using a simple web form). By doing this right, you would likely realize that it's a nice-to-have but not a need-to-have, especially when you consider the cost of shipping. Believe it or not, this may just help you [avoid a billion dollar meltdown in the future](http://www.cnet.com/news/pets-com-latest-high-profile-dot-com-disaster/)!
 
-> Data beats opinions.
-> – Anonymous
+> "Data beats opinions."
+> –Anonymous
 
 *Create a longer term plan on how to build this out (i.e., the Roadmap).* Now that you have a better sense of what will deliver value to a customer, start building the Roadmap to outline what the team will be working on for the foreseeable future, when features or iterations are targeted to release, and what intended outcomes/benefits will be. You should also realize that the roadmap is a living-and-breathing document meant to evolve, especially the further out you go in the timeline. It's expected that you have less confidence on the items in the more distant future and more confidence on the items closer to the present since you don't know what's going to happen between now and then. Additionally, you might run tests in the future that will show something different than what you planned is more promising in delivering an intended outcome, and subsequently revise your Roadmap. When thinking about what to consider as part of the Roadmap, you should have some balanced criteria that considers things such as customer impact/benefit, business objectives, feasibility, effort required, and dependencies on other items.
 
@@ -157,24 +157,25 @@ If that isn't enough, you not only need to do the right thing, you need to do it
 You need to deliver. What, specifically? No, this doesn't mean your team should always be furiously working and shipping lots of features (i.e., output). It means instead that your team is committed to delivering things that deliver value to customers, and meet the intended outcomes of the company and product strategy. Revisiting our prior example, if one of your over-arching annual objectives is to grow active users to 1 million users from the current 200k user mark, and you keep on shipping features that don't improve on this, you have not delivered to your goal.
 
 Often times, in order to deliver, you need to assume roles including:
-    -   __Cheerleader__ - You get your team excited and energized. The development process is [not as glamorous](https://www.youtube.com/watch?v=uxKmDWDUZ5A) as it may seem, and can be filled with lots bumps, uncertainty, and in-frequent rewards. You need to keep your team excited and motivated to keep going.
-    -   __Obstacle remover__ - You help remove obstacles for team members, whether it's a decision on what text to use or whether there are legal implications for tracking certain user data, you'll answer the question or help facilitate the process to do so with others in the organization.
-    -   __Connector__ - You actively remain in the know about what's happening and connect dots across the team, product, and organization.
-    -   __Fortune-teller__ - You foresee potential opportunities or risks, and work to pursue or mitigate them, respectively.
-    -   __Negotiator__ - You win members of your team and company over to your side.
+-   *Cheerleader* - You get your team excited and energized. The development process is [not as glamorous](https://www.youtube.com/watch?v=uxKmDWDUZ5A) as it may seem, and can be filled with lots bumps, uncertainty, and in-frequent rewards. You need to keep your team excited and motivated to keep going.
+-   *Obstacle remover* - You help remove obstacles for team members, whether it's a decision on what text to use or whether there are legal implications for tracking certain user data, you'll answer the question or help facilitate the process to do so with others in the organization.
+-   *Connector* - You actively remain in the know about what's happening and connect dots across the team, product, and organization.
+-   *Fortune-teller* - You foresee potential opportunities or risks, and work to pursue or mitigate them, respectively.
+-   *Negotiator* - You win members of your team and company over to your side.
 
+### Common PM misconceptions
 Now that we've covered, at a high-level, the responsibilities of a PM, there's also a variety of assumptions and misunderstandings about what a PM does. To clear up some of them, PMs:
--   __Do not manage people__ - Unless you're senior and oversee a team of PMs (e.g., as a Group Product Manager, Product Lead, Senior Manager, Director, or VP), you generally don't manage any people. Members of the product team, including Engineers and Designers, are all your peers.
--   __Are not the sole source of ideas__ - You walk in one day with an idea for what the ground-breaking product/feature, tell the team to work on it, and sit-back until it's launched to bask in the glory. This sounds nice but in reality product development is a highly iterative, collaborative process, where you're involved practically throughout. Ideas are often evolved through a hypothesis-driven approach and with various inputs.
--   __Do not throw requirements over the fence to Engineers__ - Often times you will be collaborating with your Engineers to develop requirements, and occasionally requirements do change even when things are being built (as you discover new things).
--   __Do not program code that's deployed to users__ - This is not to say that this has never happened or will never happen in the future (e.g., you might need to be super scrappy at a 3-person startup so you're part-time PM and part-time Developer). It's just that for most PMs, this is not the case; it's a meaty enough role that if you do it right, you'll have your hands full. Depending on your proficiency with coding and the organizational norm, you may from time to time pull together quick prototypes to convey an idea or scripts to analyze and share data internally.
--   __Do not tell Engineers how to solve problems__ - You should be explaining to the team "what" needs to be done and allow the engineers to determine "how" to do it. Even if you have a technical background, trust them to own their domain.
--   __Are not finished once the product ships__ - You're usually tasked with having a product or feature that you ship meet some target outcome so your job doesn't end after you ship. Instead, after you ship, you usually iterate by reviewing how your product/feature is doing, and improving facets, such as functionality or quality.
+-   *Do not manage people* - Unless you're senior and oversee a team of PMs (e.g., as a Group Product Manager, Product Lead, Senior Manager, Director, or VP), you generally don't manage any people. Members of the product team, including Engineers and Designers, are all your peers.
+-   *Are not the sole source of ideas* - You walk in one day with an idea for what the ground-breaking product/feature, tell the team to work on it, and sit-back until it's launched to bask in the glory. This sounds nice but in reality product development is a highly iterative, collaborative process, where you're involved practically throughout. Ideas are often evolved through a hypothesis-driven approach and with various inputs.
+-   *Do not throw requirements over the fence to Engineers* - Often times you will be collaborating with your Engineers to develop requirements, and occasionally requirements do change even when things are being built (as you discover new things).
+-   *Do not program code that's deployed to users* - This is not to say that this has never happened or will never happen in the future (e.g., you might need to be super scrappy at a 3-person startup so you're part-time PM and part-time Developer). It's just that for most PMs, this is not the case; it's a meaty enough role that if you do it right, you'll have your hands full. Depending on your proficiency with coding and the organizational norm, you may from time to time pull together quick prototypes to convey an idea or scripts to analyze and share data internally.
+-   *Do not tell Engineers how to solve problems* - You should be explaining to the team "what" needs to be done and allow the engineers to determine "how" to do it. Even if you have a technical background, trust them to own their domain.
+-   *Are not finished once the product ships* - You're usually tasked with having a product or feature that you ship meet some target outcome so your job doesn't end after you ship. Instead, after you ship, you usually iterate by reviewing how your product/feature is doing, and improving facets, such as functionality or quality.
 
 If you want a chuckle about the PM role watch this short clip:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZiBeKrwfU90" frameborder="0" allowfullscreen></iframe>
-
-The following folks have also shared their perspective on the PM role and I encourage you to read them:
+<br>
+*I encourage you to read these additional perspectives on the PM role:*
 -   [A Product Manager’s Job](https://medium.com/@joshelman/a-product-managers-job-63c09a43d0ec#.ovrm5dp44) by Josh Elman
 -   [Product Manager You Are… a janitor, essentially](https://medium.com/@matbalez/product-manager-you-are-664d83ee702e#.e39puajeh) by Mat Balez
 -   [MVPM: Minimum Viable Product Manager](https://medium.com/swlh/mvpm-minimum-viable-product-manager-e1aeb8dd421#.va5bl12ef) by Brandon Chu
@@ -200,7 +201,7 @@ No two PMs will have the same experience. That said what you can generally what 
 
 The key takeaway is that there is a lot of variability and a lot of demands on your time. Savvy PMs know how to navigate this and strike a balance that ensures that urgent, non-important items don't suck up all their time while important, non-urgent items are well addressed. When I first started, I thought I needed to join every possibly relevant meeting and speak to every stakeholder that wanted to speak with me. This led to meetings being the bulk of my day, and then me trying to work on my own tasks during the early mornings or nights. This is not recommended or sustainable in the long-term. I learned to be more effective by knowing (1) what was important (i.e., which actions would help me best deliver value to customers, empower my teams, and bring others along on the journey), and (2) what could be handled in other ways (e.g., responding with an email instead of a 30-minute meeting or nicely saying "no, I don't think this is a priority"). I also found that being very intentional about meetings helped cut down on them. Specifically, I needed to be confident that a meeting was needed and clear about necessary decisions/outcomes. I would prepare an agenda to share with attendees in advance and ensured that no necessary attendees were missed (which often results in a future follow-up meeting). As with any business owner, a PMs success is often dictated by what they say no to. Saying no to feature requests. Saying no to meetings. A good product manager is protective of their time.
 
-The following folks have captured a great view of a day in the life of a PM and I encourage you to read them:
+*Here are additional perspectives on the day-to-day PM experience:*
 -   [So, What Do You Actually Do As A Product Manager?](https://medium.com/all-things-product-management/so-what-do-you-actually-do-as-a-product-manager-6baf424148c1#.ga3henb0d) by Catherine Shyu
 -   [Day In the Life of a Product Manager](https://www.productmanagerhq.com/2014/06/day-in-the-life-of-a-product-manager/) on Product Manager HQ
 -   [What is a day in the life of a Product Manager like?](https://www.quora.com/What-is-a-day-in-the-life-of-a-Product-Manager-like) on Quora
@@ -228,7 +229,7 @@ A bulk of your role involves making weighing trade-offs (e.g., do we go with sol
 
 To make better decisions, you should try to come up with a set of relevant criteria and evaluate decisions against it. This comes with practice, and at first you'll likely need to invest thoughtful time upfront to do so. As you get better, this will become second nature and you'll find yourself doing it on the fly. It's worthwhile to note that structured decision making does not imply you make a 10-criteria matrix for every single decision and try to check off every box. For instance, if you're finding users are struggling to see a gray font on a white background, you likely don't need to over deliberate on what possible improvements may be. Use your judgement - if a non-obvious decision needs to be made, put on your structured decision-making hat!
 
-Read the following resources if you're interested in learning more about how you might go about decision making in a product context:
+*Read the following if you're interested in learning more about decision-making in a product context:*
 -   [6 decision-making techniques all Product Managers should know](https://blog.pivotal.io/labs/labs/6-decision-making-techniques-product-managers-know) by Joanna Beltowska
 -   [How To Turn Bad Ideas Into Good Ideas](http://www.producttalk.org/2014/02/how-to-turn-bad-ideas-into-good-ideas/) by Teresa Torres
 -   [Don’t Make Snap Product Decisions](http://www.producttalk.org/2013/10/dont-make-snap-product-decisions/) by Teresa Torres
@@ -237,16 +238,16 @@ Read the following resources if you're interested in learning more about how you
 ### Strong communication skills
 Oral and written communication is very important to your success as a PM. On the oral communication front, you will routinely be connecting with various stakeholders in meetings and work sessions (e.g., core team members, functional partners, leadership, etc.), running customer research sessions, or presenting. As a result, it's important for you to be able to both engage in and drive discussions, dig-deeper into others ideas, and effectively communicate your own. On the written communication front, you will often be writing emails, requirements, or preparing presentations to convey your thinking. In order for you and your team to be on the same page, it's important that you can succinctly convey your ideas in a way that others can understand.
 
-> A great product manager has the brain of an engineer, the heart of a designer, and the speech of a diplomat.
-> – Deep Nishar
+> "A great product manager has the brain of an engineer, the heart of a designer, and the speech of a diplomat."
+> –Deep Nishar
 
 ### Strong leadership ability
 PMs are leaders. They are vital to a product and company's success and can have significant impact on their core and extended teams. That said, they generally don't manage other people and must lead through influence. For example, you may have a strong leaning towards pursuing one of two options for a key design decision. Instead of forcing it through and potentially upsetting folks, you should win them over by supporting your position with customer input and data.
 
 There is no single formula for successful leadership and every leader has his/her own strengths and preferences on how to lead. When it comes to product management, the most inspirational leaders I've seen often lead with a combination of the following:
--   __Inspiration__ - These leaders routinely bring things back to the "why?" and lead with a vision. This doesn't mean that they're all mythical figures like Oprah either. Often times what can inspire your teams are other traits such as consistency, a deep-customer focus, integrity, and a can-do attitude.
--   __Humility__ - These PMs leave their ego at the door and put the interests of their customers and teams first. They go even further and generously share success with their teams but step up to burden the responsibility.
--   __Stewardship__ - These PMs are focused on making those around them better. Through my experience, I've come to believe that excellent PMs should "be the rocket, not the battery." This means that they don't make their teams so dependent on them that without them things shut down. Instead they build their teams up so that they function well without much intervention. Instead, when they do intervene, it's to propel them much further.
+-   *Inspiration* - These leaders routinely bring things back to the "why?" and lead with a vision. This doesn't mean that they're all mythical figures like Oprah either. Often times what can inspire your teams are other traits such as consistency, a deep-customer focus, integrity, and a can-do attitude.
+-   *Humility* - These PMs leave their ego at the door and put the interests of their customers and teams first. They go even further and generously share success with their teams but step up to burden the responsibility.
+-   *Stewardship* - These PMs are focused on making those around them better. Through my experience, I've come to believe that excellent PMs should "be the rocket, not the battery." This means that they don't make their teams so dependent on them that without them things shut down. Instead they build their teams up so that they function well without much intervention. Instead, when they do intervene, it's to propel them much further.
 
 ### Hustle
 Remember, you're responsible for delivering. This means that you have great hustle and do what's needed, be it removing obstacles for your team or getting your hands dirty (e.g., instead of getting a perfect breakdown of data from an analytics analyst you do some quick and dirty analysis yourself to get the ball rolling). Note, this doesn't mean you run around like a chicken with its head cut-off and focus on putting out fires or micromanaging others to get things done. Going hand in hand with first knowing what the right things are to focus on, hustle then ensures you are proactive in delivering on these commitments.
@@ -257,9 +258,9 @@ The PM role is extremely versatile and requires someone that is willing to learn
 I really like Medha Ghatikesh's infographic below - it captures many of the aspects that embody the PM craft and I feel are important to be successful in the role:
 
 <img src="/images/pm_manifesto.png" width="371" height="529" />
-[*Source*](https://medium.com/medha-ghatikesh/the-product-manager-s-manifesto-infographic-633527b2567e#.aqgorjr9u)
+[*The PM's Manifesto (Source: Medha Ghatikesh on Medium)*](https://medium.com/medha-ghatikesh/the-product-manager-s-manifesto-infographic-633527b2567e#.aqgorjr9u "Caption")
 
-This is my perspective. Here are additional thoughts I encourage you to read:
+*This is my perspective. Here are additional thoughts on the common characteristics of successful PMs:*
 -   [What distinguishes the Top 1% of Product Managers from the Top 10%?](https://www.quora.com/What-distinguishes-the-Top-1-of-Product-Managers-from-the-Top-10) on Quora
 -   [Good Product Manager/Bad Product manager](http://www.khoslaventures.com/wp-content/uploads/Good_Product_Manager_Bad_Product_Manager_KV.pdf) by Ben Horowitz and David Weiden. Note: Horowitz recently suggested that having been written 15+ years ago, much of this likely isn't relevant; however, I feel there valuable nuggets in it
 -   [Why Companies Need Full-Time Product Managers - Characteristics Of A Good Product Manager](https://www.smashingmagazine.com/2014/09/why-companies-need-full-time-product-managers/#characteristics-of-a-good-product-manager) by Rian van der Merwe
@@ -276,7 +277,12 @@ Its valuable to reiterate that context matters and the what you focus on as a PM
 
 ## Product lifecycle
 
-Read the well-prepared description provided [here](http://productlifecyclestages.com/) on the product lifecycle and its stages. This is a simple framework with origins in physical products (that's why you see references to manufacturing). However, it's still applicable in software development and the key learning is that products undergo a journey, and their adoption, sales (if applicable), and use vary throughout their lifetime and are influenced by a combination of internal (e.g., new feature development, marketing, etc.) and external (e.g., competitors, customer preferences, etc.) factors.
+Read the well-prepared description provided [here](http://productlifecyclestages.com/) on the product lifecycle and its stages.
+
+<img src="/images/prod_lifecycle.jpeg" width="377" height="320" />
+[*Different stages of the product lifecycle (Source: PR Newswire)*](http://photos.prnewswire.com/prnvar/20140806/134162?max=650 "Caption")
+
+This is a simple framework with origins in physical products (that's why you see references to manufacturing). However, it's still applicable in software development and the key learning is that products undergo a journey, and their adoption, sales (if applicable), and use vary throughout their lifetime and are influenced by a combination of internal (e.g., new feature development, marketing, etc.) and external (e.g., competitors, customer preferences, etc.) factors. As a PM, you need to think about products throughout different stages of their life and adopt a relevant focus at each stage. In future modules we delve deeper into what to consider at different stages.
 
 
 ## Software development lifecycle
@@ -284,22 +290,20 @@ Read the well-prepared description provided [here](http://productlifecyclestages
 The software development lifecycle refers to the process of planning, designing, and developing software. As expected, there are several different ways of doing so; each have their own pros and cons and are applicable in different product scenarios. Two major approaches to be familiar with are **Waterfall** (also called Traditional Development) and **Agile**. Read through the simple overview of each [here](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/). In a nutshell, Waterfall has a "sequential design process" to software development while Agile focuses on "adaptive planning, evolutionary development, early delivery, and continuous improvement" ([1](https://en.wikipedia.org/wiki/Waterfall_model), [2](https://en.wikipedia.org/wiki/Agile_software_development)). Currently in software development, Agile practices are preferred over Waterfall since they allow product teams to illicit more customer feedback through frequent smaller releases, and make faster changes based on new learning. We cover how to employ Agile and SCRUM, one of the most popular ways in which Agile is employed, in a future module.
 
 <img src="/images/waterfall.jpeg" width="475" height="177" />
-[Source](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/)
+[*The Waterfall approach is sequential, and can span several months (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
 
 <img src="/images/agile.jpeg" width="452" height="169" />
-[Source](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/)
+[*The Agile approach is iterative, and happens in small "sprints" usually lasting 1-2 weeks (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
 
 It may seem that Waterfall is a thing of the past. Back in the days of CD-ROM based desktop software, the Waterfall model made sense. It would be silly to ship millions of physical CDs of Microsoft Office that were a work-in-progress and then ship out new CDs every time new features were added or bugs were fixed. With the internet now mainstream, most consumer software has shifted away from Desktop-only products to either entirely web-based or hybrid (i.e., you have a desktop-based app but the content and storage is primarily done on the web - for example [Dropbox's desktop app](http://www.engineering.hku.hk/tecHKU/2015/06/01/wids15-hybridapps/)), and the Agile approach is often more appropriate. Being able to easily distribute updates over the internet provides the flexibility to rapidly iterate and improve software.
 
 There are still applications though where Waterfall practices are more appropriate than Agile (e.g., think of mission critical software such as what's run in a Nuclear Plant). Beyond software, aspects of the Waterfall approach are also used in developing new technologies. For instance, companies like Fitbit don't release work-in-progress devices on a bi-weekly basis. Instead, they are more thoughtful upfront about their product roadmap and what physical components need to include in their devices for possible future development of new features. This way, they can sell a watch, build a new feature later, and then just get customers to update their software to receive the new functionality.
 
-Here is additional reading in case you're interested:
+*In case you're interested - here is additional reading on software development approaches:*
 -   More detailed comparison between Waterfall and Agile captured [here](http://www.seguetech.com/blog/2013/07/05/waterfall-vs-agile-right-development-methodology) and [here](http://covalentmarketing.com/blog/2015/10/19/software-development-lifecycle-waterfall-vs-agile-2/)
 -   [What are the pros and cons of the waterfall and agile/scrum project management approach?](https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach) on Quora
 -   History into the evolution of different software development approaches and an overview into several other variations on Wikipedia [here](https://en.wikipedia.org/wiki/Software_development_process)
 
-
-
-***Sources used for module:***
--   Personal experience and contributor input.
--   [Inspired: How to Create Products Customers Love](http://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408/ref=sr_1_1?ie=UTF8&qid=1462323442&sr=8-1&keywords=inspired+marty+cagan) by Marty Cagan. If you're interested in further gaining an overview of product management, I recommend reading this book.
+### Further reading
+If you're interested in further gaining an overview of product management, I recommend reading:
+-   [Inspired: How to Create Products Customers Love](http://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408/ref=sr_1_1?ie=UTF8&qid=1462323442&sr=8-1&keywords=inspired+marty+cagan) by Marty Cagan

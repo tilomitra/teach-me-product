@@ -4,7 +4,9 @@
         {{#each subheadings}}
             <li><a href='{{this.anchor}}'>{{moduleNumber}}.{{submoduleNumber}} {{text}}</a></li>
         {{/each}}
-            <li><a href="#references">References</a></li>
+        {{#if footnotes}}
+        <li><a href="#references">References</a></li>
+        {{/if}}
     </ul>
 </div>
 <div class="module-body">
@@ -14,26 +16,38 @@
         </div> <!-- close the last open h2 div. see the marked renderer for headings for details. -->
     </div>
     <hr/>
+
+
         {{#if prevSubmodule}}
             <p>
-                Previous submodule: <a href="{{prevSubmodule.link}}">{{prevSubmodule.text}}</a>
+                <span class="module-control module-control-previous">Previous module</span>
+                <a href="{{prevSubmodule.link}}" class="btn btn-default">
+                    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                    {{prevSubmodule.text}}
+                </a>
             </p>
         {{/if}}
 
         {{#if nextSubmodule}}
-            <p>
-                Next submodule: <a href="{{nextSubmodule.link}}">{{nextSubmodule.text}}</a>
+            <p style="text-align: right">
+
+                <span class="module-control module-control-next">Next module</span>
+                <a href="{{nextSubmodule.link}}" class="btn btn-default">
+                    {{nextSubmodule.text}}
+                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                </a>
             </p>
         {{/if}}
     <hr/>
     <div class="module-footnotes">
+        {{#if footnotes}}
         <h2 id="references">References</h2>
-        <ol class="module-footnotes-list">
+        <ul class="module-footnotes-list">
             {{#each footnotes}}
-                <li id="#fn-{{@index}}"><a href="{{link}}">{{title}}</a></li>
+                <li id="fn-{{number}}"><a href="{{href}}">{{number}}. {{title}}</a></li>
             {{/each}}
-        </ol>
-
+        </ul>
+        {{/if}}
     </div>
 </div>
 

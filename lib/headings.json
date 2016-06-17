@@ -27,7 +27,7 @@
                 "text": "Introduction to product management",
                 "draft": false,
                 "link": "2_Introduction-to-product-management",
-                "excerpt": "Author: TBD"
+                "excerpt": "Excerpt TBD\n"
             }
         ]
     },
@@ -37,29 +37,56 @@
         "type": "folder",
         "children": [
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/1_Business-and-Innovation-Basics.md",
-                "name": "1_Business-and-Innovation-Basics.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/.DS_Store",
+                "name": ".DS_Store",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/2_A-Sample-Module.md",
-                "name": "2_A-Sample-Module.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/1draft_Business-basics.md",
+                "name": "1draft_Business-basics.md",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/2draft_Innovation-basics.md",
+                "name": "2draft_Innovation-basics.md",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/3draft_Lean-Startup-overview.md",
+                "name": "3draft_Lean-Startup-overview.md",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/4draft_Technology-overview.md",
+                "name": "4draft_Technology-overview.md",
                 "type": "file"
             }
         ],
         "displayName": "Supplementary",
         "modules": [
             {
-                "text": "Business and Innovation Basics",
-                "draft": false,
-                "link": "1_Business-and-Innovation-Basics",
-                "excerpt": "This is a sample excerpt for this markdown document."
+                "text": "Business basics",
+                "draft": true,
+                "link": "1draft_Business-basics",
+                "excerpt": "Learn business fundamentals in the context of the PM role. This module covers: business fundamentals and analyses, the business case, the business model, and the business model canvas.\n"
             },
             {
-                "text": "A Sample Module",
-                "draft": false,
-                "link": "2_A-Sample-Module",
-                "excerpt": "This is another sample excerpt for this other markdown document."
+                "text": "Innovation basics",
+                "draft": true,
+                "link": "2draft_Innovation-basics",
+                "excerpt": "Learn how new products are able to successfully gain adoption. This module introduces popular innovation concepts including the innovation adoption lifecycle, the \"chasm\" concept, the four gears model, and disruptive innovation.\n"
+            },
+            {
+                "text": "Lean Startup overview",
+                "draft": true,
+                "link": "3draft_Lean-Startup-overview",
+                "excerpt": "Learn the principles and motivation behind the lean startup model, as well as key terminology. Also, see how it applies to product management.\n"
+            },
+            {
+                "text": "Technology overview",
+                "draft": true,
+                "link": "4draft_Technology-overview",
+                "excerpt": "Get an overview of key technology topics relevant to software PMs including: different types of software, web and mobile app basics, APIs, tech debt, migrations, working effectively with Engineering, and learning to code.\n"
             }
         ]
     },
@@ -90,14 +117,6 @@
         "type": "folder",
         "children": [],
         "displayName": "Professional Development",
-        "modules": []
-    },
-    {
-        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//5_Advanced",
-        "name": "5_Advanced",
-        "type": "folder",
-        "children": [],
-        "displayName": "Advanced",
         "modules": []
     }
 ]

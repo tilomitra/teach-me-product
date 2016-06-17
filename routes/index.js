@@ -11,9 +11,21 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res) {
   res.render('index', {
-      title: 'Introduction to Software Project Management',
+      title: 'Teach Me Product',
       headings: Headings
   });
+});
+
+router.get('/about', function (req, res) {
+    res.render('about', {
+        title: 'About | Teach Me Product'
+    });
+});
+
+router.get('/resources', function (req, res) {
+    res.render('resources', {
+        title: 'Resources | Teach Me Product'
+    });
 });
 
 router.get('/modules/:folder/:moduleName', function (req, res) {
@@ -36,24 +48,34 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
     }
 
     renderer.link = function (href, title, text) {
-        lowerText = text.toLowerCase();
-        if (lowerText.indexOf('source') > -1) {
-            footnotes.push({
+        var lowerText = text.toLowerCase();
+        var data;
+        var length = footnotes.length + 1;
+
+        if (title === 'Caption') {
+            return '<aside class="image-caption"><a href="' + href + '" target="_blank">' + text + '</a></aside>';
+        }
+
+        else if (lowerText.indexOf('source') > -1) {
+            data = {
                 href: href,
                 title: title,
                 text: text,
-                number: footnotes.length
-            })
-            return '<a href="#fn-' + (footnotes.length-1) + '"><sup>' + (footnotes.length-1) + '</sup></a>';
+                number: length
+            };
+
+            footnotes.push(data);
+
+            return '<span class="link-source"><a class="link-souce--link" href="#fn-' + (data.number) + '"><sup>' + data.number + '</sup></a></span>';
         }
         else {
-            return '<a href="' + href + '">' + text + '</a>';
+            return '<a href="' + href + '" target="_blank">' + text + '</a>';
         }
 
     }
 
     renderer.heading = function (text, level) {
-        var dashSpaced = text.replace(/\s+/g, '-').toLowerCase();
+        var dashSpaced = text.replace(/[^A-Z0-9]/ig, "-").toLowerCase();
         var submoduleNumber;
         if (level === 1) {
             moduleNumber = parseInt(text.match(/(\d+)/)[0]);
@@ -74,10 +96,10 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
             });
 
             if (submoduleNumber === 1) {
-                return '<div id="' + dashSpaced + '"><h2 class="subheading">' + moduleNumber + "." + submoduleNumber + " " + text + '</h2>';
+                return '<div class="submodule" id="' + dashSpaced + '"><h2 class="subheading">' + moduleNumber + "." + submoduleNumber + " " + text + '</h2>';
             }
             else {
-                return '</div><div id="' + dashSpaced + '"><h2 class="subheading">' + moduleNumber + "." + submoduleNumber + " " + text + '</h2>';
+                return '</div><div class="submodule" id="' + dashSpaced + '"><h2 class="subheading">' + moduleNumber + "." + submoduleNumber + " " + text + '</h2>';
             }
         }
         else {
@@ -127,10 +149,10 @@ router.get('/compile', function (req, res) {
             fo.modules = [];
 
             fo.children.forEach(function (f) {
-                if (f.type === 'file') {
+                if (f.type === 'file' && f.name.indexOf('Store') === -1) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
                     var contentHtml = marked(contentMd);
-                    var excerpt = excerptHtml(contentHtml);
+                    var excerpt = excerptHtml(contentHtml, {pruneLength: 99999});
                     fo.modules.push({
                         text: f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
                         draft: f.name.indexOf('draft') > -1 ? true : false,
