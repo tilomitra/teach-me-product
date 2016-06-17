@@ -1,5 +1,5 @@
-Author: TBD
-
+Learn more about why TMP was created, who it's meant for, and how to use it - including caveats to keep in mind.
+<!-- more -->
 # Module 1 - Welcome to Teach Me Product
 
 ## The motivation behind TMP

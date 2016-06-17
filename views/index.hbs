@@ -17,6 +17,7 @@
                 {{#each this.modules}}
                     {{#unless draft}}
                         <li>
+                            <a class="pull-right chapter-meta available-now" href="/modules/{{../../this.name}}/{{../this.link}}">Read Now</a>
                             <h4 class="chapter-contents-title">
                                 <a href="/modules/{{../../this.name}}/{{../this.link}}">{{../this.text}}</a>
                             </h4>
@@ -24,7 +25,7 @@
                         </li>
                     {{else}}
                         <li>
-                            <span class="pull-right coming-soon">Coming Soon</span>
+                            <span class="pull-right chapter-meta coming-soon">Coming Soon</span>
                             <h4 class="chapter-contents-title">{{../this.text}}</h4>
                             <p class="excerpt">{{../this.excerpt}}</p>
                         </li>

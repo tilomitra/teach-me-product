@@ -36,6 +36,12 @@ footer {
     color: #666;
 }
 
+img.profile {
+    padding-top: 30px;
+    display: block;
+    border-radius: 200px;
+}
+
 .btn {
     font-family: 'Open Sans', sans-serif !important;
     text-decoration: none;
@@ -43,13 +49,13 @@ footer {
 }
 
 .btn-default {
-    background: #111;
+    background: #577de8;
     color: white !important;
     border: none;
     transition: all 0.3s;
 }
 .btn-default:hover {
-    background: #333;
+    background: #5957e8;
     border: none;
 }
 
@@ -108,7 +114,7 @@ a:hover {
     background: #23d2a9;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
     box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 24px;
 }
@@ -169,18 +175,32 @@ a:hover {
     margin-top: 10px;
 }
 
-.coming-soon {
+.chapter-meta {
     font-size: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 4px 10px;
     margin-top: -3px;
     margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.coming-soon {
     border: 1px solid #23d2a9;
     color: #23d2a9;
-    font-weight: normal;
-    border-radius: 5px;
-
 }
+
+.available-now {
+    border: 1px solid #577de8;
+
+    text-decoration: none;
+    color: #577de8 !important;
+}
+.available-now:hover {
+    background: #577de8;
+    text-decoration: none;
+    color: white !important;
+}
+
 .image-wrapper {
     text-align: center;
 }
@@ -278,8 +298,19 @@ a:hover {
     background: #111;
     font-size: 14px;
 }
-#topbar a {
+#topbar a, .menu-section-header {
     text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+.menu-section-header {
+    color: #23d2a9;
+}
+.menu-section-subtitle {
+    padding-left: 15px;
 }
 
 #topbar .navbar-brand {
@@ -305,6 +336,10 @@ a:hover {
     background: #23d2a9;
 }
 
+#topbar .navbar-collapse.collapsing,
+#topbar .navbar-collapse.in {
+    box-shadow:rgba(0, 0, 0, 0.6) 0px 6px 50px;
+}
 .module-control {
     display: block;
     font-size: 12px;

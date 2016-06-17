@@ -1,4 +1,4 @@
-Excerpt TBD
+Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development lifecycles.
 <!-- more -->
 # Module 2 - Introduction to product management
 
