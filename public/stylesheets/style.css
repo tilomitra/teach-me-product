@@ -54,6 +54,7 @@ iframe {
     color: black;
 }
 
+
 a, a:visited {
   color: #555;
   text-decoration: underline;
@@ -101,20 +102,18 @@ a:hover {
 
 }
 
-.chapter-table > tbody > tr > td {
-     vertical-align: middle;
-}
-
 .chapter {
-    color: white;
-    text-align: left;
-    width: 250px;
+    border-bottom: 1px solid #ddd;
 }
 
 .chapter-contents-title {
     margin-bottom: 0;
 }
 
+.chapter-contents-list {
+    margin: 20px inherit;
+    padding: 10px 0 10px 10px;
+}
 
 .module-main {
     margin: 0;

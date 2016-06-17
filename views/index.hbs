@@ -6,39 +6,31 @@
 </div>
 <div class="module-body module-home">
 
-    <table class="chapter-table table">
-        <tbody>
-        {{#each headings}}
-            <tr>
-            <td class="chapter" id="chapter-{{this.name}}">
-                <h3 class="chapter-title">{{this.displayName}}</h3>
-            </td>
-            <td class="chapter-contents">
-                <ul class="module-main">
-                    {{#each this.modules}}
-                        {{#unless draft}}
-                            <li>
-                                <h4 class="chapter-contents-title">
-                                    <a href="/modules/{{../../this.name}}/{{../this.link}}">{{../this.text}}</a>
-                                </h4>
-                                <p class="excerpt">{{../this.excerpt}}</p>
-                            </li>
-                        {{else}}
-                            <li>
-                                <span class="pull-right coming-soon">Coming Soon</span>
-                                <h4 class="chapter-contents-title">{{../this.text}}</h4>
-                                <p class="excerpt">{{../this.excerpt}}</p>
-                            </li>
+    {{#each headings}}
+        <div class="chapter" id="chapter-{{this.name}}">
+            <h3 class="chapter-title">{{this.displayName}}</h3>
+        </div>
+        <div class="chapter-contents">
+            <ol class="chapter-contents-list">
+                {{#each this.modules}}
+                    {{#unless draft}}
+                        <li>
+                            <h4 class="chapter-contents-title">
+                                <a href="/modules/{{../../this.name}}/{{../this.link}}">{{../this.text}}</a>
+                            </h4>
+                            <p class="excerpt">{{../this.excerpt}}</p>
+                        </li>
+                    {{else}}
+                        <li>
+                            <span class="pull-right coming-soon">Coming Soon</span>
+                            <h4 class="chapter-contents-title">{{../this.text}}</h4>
+                            <p class="excerpt">{{../this.excerpt}}</p>
+                        </li>
 
-                        {{/unless}}
+                    {{/unless}}
 
-                    {{/each}}
-                </ul>
-            </td>
-            </tr>
-        {{/each}}
-        </tbody>
-    </table>
-
-
+                {{/each}}
+            </ol>
+        </div>
+    {{/each}}
 </div>
