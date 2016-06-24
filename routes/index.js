@@ -131,8 +131,6 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
                 currentModule: mod,
                 prevSubmodule: moduleDir.modules[submoduleIdx - 1] || null,
                 nextSubmodule: moduleDir.modules[submoduleIdx + 1] || null
-                //nextModule: moduleDir.children[submoduleIdx - 1]
-                // prevModule:
             });
         }
     });
@@ -153,8 +151,6 @@ router.get('/compile', function (req, res) {
                 if (f.type === 'file' && f.name.indexOf('Store') === -1) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
                     var content = marked(contentMd);
-                    var contentHtml = content.html;
-
                     fo.modules.push({
                         text: f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
                         draft: content.meta.Draft,
@@ -171,52 +167,5 @@ router.get('/compile', function (req, res) {
     res.status(200).json({done: true, message: 'Generated new headings'});
 });
 
-router.get('/getFiles/:folder', function (req, res) {
-    var j = dirTree(path.join(CWD, 'markdown', req.params.folder || ''));
-
-    return res.status(200).json(j);
-});
-
-
-function dirTree(filename) {
-    var stats = fs.lstatSync(filename),
-        info = {
-            path: filename,
-            name: path.basename(filename)
-        };
-
-    if (stats.isDirectory()) {
-        info.type = "folder";
-        info.children = fs.readdirSync(filename).map(function(child) {
-            return dirTree(filename + '/' + child);
-        });
-    } else {
-        // Assuming it's a file. In real life it could be a symlink or
-        // something else!
-        info.type = "file";
-    }
-
-    return info;
-}
-
-
-
-function readFiles(dirname, onFileContent, onError) {
-    fs.readdir(dirname, function(err, filenames) {
-        if (err) {
-            onError(err);
-            return;
-        }
-        filenames.forEach(function(filename) {
-            fs.readFile(dirname + filename, 'utf-8', function(err, content) {
-                if (err) {
-                    onError(err);
-                    return;
-                }
-                onFileContent(filename, content);
-            });
-        });
-    });
-}
 
 module.exports = router;
