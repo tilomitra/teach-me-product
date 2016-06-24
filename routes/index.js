@@ -1,19 +1,19 @@
 var CWD = require('process').cwd();
 var fs = require('fs');
 var express = require('express');
-var marked = require('marked');
+var marked = require('meta-marked');
 var path = require('path');
 var _ = require('underscore');
-var excerptHtml = require('excerpt-html');
-var Headings = require(path.join(CWD, 'lib/headings.json'));
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', {
+    var Headings = require(path.join(CWD, 'lib/headings.json'));
+
+    res.render('index', {
       title: 'Teach Me Product',
       headings: Headings
-  });
+    });
 });
 
 router.get('/about', function (req, res) {
@@ -29,6 +29,7 @@ router.get('/resources', function (req, res) {
 });
 
 router.get('/modules/:folder/:moduleName', function (req, res) {
+    var Headings = require(path.join(CWD, 'lib/headings.json'));
     var folder = req.params.folder;
     var mod = req.params.moduleName;
 
@@ -115,14 +116,14 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
         }
 
         else {
-            var html = marked(contents, { renderer: renderer });
+            var content = marked(contents, { renderer: renderer });
             var moduleDir = _.findWhere(Headings, {name: folder});
             var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
                 return v.link === mod;
             });
             console.log(moduleDir.modules[submoduleIdx + 1] );
             res.render('module', {
-                content: html,
+                content: content.html,
                 heading: heading,
                 subheadings: subheadings,
                 footnotes: footnotes,
@@ -151,13 +152,14 @@ router.get('/compile', function (req, res) {
             fo.children.forEach(function (f) {
                 if (f.type === 'file' && f.name.indexOf('Store') === -1) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
-                    var contentHtml = marked(contentMd);
-                    var excerpt = excerptHtml(contentHtml, {pruneLength: 99999});
+                    var content = marked(contentMd);
+                    var contentHtml = content.html;
+
                     fo.modules.push({
                         text: f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
-                        draft: f.name.indexOf('draft') > -1 ? true : false,
+                        draft: content.meta.Draft,
                         link: f.name.replace('.md', ''),
-                        excerpt: excerpt
+                        excerpt: content.meta.Excerpt
                     });
                 }
             });
