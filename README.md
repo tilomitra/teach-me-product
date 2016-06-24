@@ -36,9 +36,10 @@ First, make sure you add the heroku remote:
 git remote add heroku https://git.heroku.com/teachmeproduct.git
 ```
 
-Then, commit your changes and push to the remote:
+Then, commit your changes and push to the heroku remote *and* to Github.
 
 ```
 git commit -am 'here are my changes'
 git push heroku master
+git push origin master
 ```
