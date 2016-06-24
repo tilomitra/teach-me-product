@@ -1,5 +1,8 @@
-Learn more about why TMP was created, who it's meant for, and how to use it - including caveats to keep in mind.
-<!-- more -->
+---
+Author: Saksham Uppal
+Draft: false
+Excerpt: Learn more about why TMP was created, who it's meant for, and how to use it - including caveats to keep in mind.
+---
 # Module 1 - Welcome to Teach Me Product
 
 ## The motivation behind TMP

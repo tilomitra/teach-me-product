@@ -1,5 +1,9 @@
-Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development lifecycles.
-<!-- more -->
+---
+Author: Saksham Uppal
+Draft: false
+Excerpt: Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development lifecycles.
+---
+
 # Module 2 - Introduction to product management
 
 *Facebook. Google Search. TurboTax. Dropbox. These are software products you’ve all heard of or use, and products that were made mainstream successes through hours and hours of planning, designing, building, and optimization. Product management plays a crucial role in this journey and is equally rewarding and challenging. So let’s get started exploring product management!*
