@@ -372,6 +372,8 @@ a:hover {
 }
 .email-signup  {
     font-family: 'Open Sans', sans-serif !important;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 20px;
 }
 
 .email-signup #newsletter-email {
@@ -386,6 +388,28 @@ a:hover {
     font-size: 16px !important;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+
+.email-signup h5 {
+    color: white;
+    margin: 0;
+}
+
+.email-signup .subhead {
+    color: rgba(255,255,255,0.5);
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.email-signup-wrapper-inverse .email-signup {
+    border-color: rgba(0,0,0,0.1);
+}
+.email-signup-wrapper-inverse h5 {
+    color: #333 !important;
+}
+.email-signup-wrapper-inverse .subhead {
+    color: #aaa !important;
 }
 
 @media (max-width: 1200px) {
