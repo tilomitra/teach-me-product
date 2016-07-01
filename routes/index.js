@@ -12,19 +12,31 @@ router.get('/', function(req, res) {
 
     res.render('index', {
       title: 'Teach Me Product',
-      headings: Headings
+      headings: Headings,
+      mixpanel: {
+          pageType: 'Informational',
+          pageName: 'Home'
+      }
     });
 });
 
 router.get('/about', function (req, res) {
     res.render('about', {
-        title: 'About | Teach Me Product'
+        title: 'About | Teach Me Product',
+        mixpanel: {
+            pageType: 'Informational',
+            pageName: 'About'
+        }
     });
 });
 
 router.get('/resources', function (req, res) {
     res.render('resources', {
-        title: 'Resources | Teach Me Product'
+        title: 'Resources | Teach Me Product',
+        mixpanel: {
+            pageType: 'Informational',
+            pageName: 'Resources'
+        }
     });
 });
 
@@ -125,16 +137,20 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
             res.render('module', {
                 content: content.html,
-                excerpt: thisModule.Excerpt,
-                url: 'https://teachmeproduct.com/m/' + thisModule.number,
+                excerpt: content.meta.Excerpt,
+                url: 'https://teachmeproduct.com/m/' + req.params.moduleName,
                 heading: heading,
                 subheadings: subheadings,
-                title: thisModule.ShortDescription,
+                title: thisModule.text,
                 footnotes: footnotes,
                 currentModule: folder,
                 currentModule: mod,
                 prevSubmodule: moduleDir.modules[submoduleIdx - 1] || null,
-                nextSubmodule: moduleDir.modules[submoduleIdx + 1] || null
+                nextSubmodule: moduleDir.modules[submoduleIdx + 1] || null,
+                mixpanel: {
+                    pageType: 'Module',
+                    pageName: thisModule.text
+                }
             });
         }
     });
@@ -157,7 +173,7 @@ router.get('/compile', function (req, res) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
                     var content = marked(contentMd);
                     fo.modules.push({
-                        text: content.meta.Title,
+                        text: content.meta.Title || f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
                         number: f.name[0],
                         shortDescription: content.meta.ShortDescription,
                         draft: content.meta.Draft,
@@ -174,5 +190,25 @@ router.get('/compile', function (req, res) {
     res.status(200).json({done: true, message: 'Generated new headings'});
 });
 
+function dirTree(filename) {
+    var stats = fs.lstatSync(filename),
+        info = {
+            path: filename,
+            name: path.basename(filename)
+        };
+
+    if (stats.isDirectory()) {
+        info.type = "folder";
+        info.children = fs.readdirSync(filename).map(function(child) {
+            return dirTree(filename + '/' + child);
+        });
+    } else {
+        // Assuming it's a file. In real life it could be a symlink or
+        // something else!
+        info.type = "file";
+    }
+
+    return info;
+}
 
 module.exports = router;

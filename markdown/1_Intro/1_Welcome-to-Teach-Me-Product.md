@@ -1,4 +1,5 @@
 ---
+Title: Welcome to Teach Me Product
 Author: Saksham Uppal
 Draft: false
 Excerpt: Learn more about why Teach Me Product was created, who it's meant for, and how to use it - including caveats to keep in mind.
@@ -7,7 +8,7 @@ Excerpt: Learn more about why Teach Me Product was created, who it's meant for, 
 
 ## The motivation behind Teach Me Product
 
-[Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) famously claimed "[software is eating the world](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)", and there's no doubt that software is becoming integral in many aspects of our lives. Behind the scenes, Product Managers (PMs) play a valuable role in building the software products that you know and love. Rightfully so, with the growing importance of software and the importance of PMs in the process, product management is more in-demand than ever! 
+[Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) famously claimed "[software is eating the world](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)", and there's no doubt that software is becoming integral in many aspects of our lives. Behind the scenes, Product Managers (PMs) play a valuable role in building the software products that you know and love. Rightfully so, with the growing importance of software and the importance of PMs in the process, product management is more in-demand than ever!
 
 But while there's a lot of buzz around the craft...
 -   Many don't know what PMs do

@@ -3,12 +3,14 @@
   <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" media="screen" charset="utf-8">
+    {{> mixpanel}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" media="screen" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400" rel="stylesheet">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-sharing/1.7.2/css/kraken-buttons.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-sharing/1.7.2/css/social-sharing.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.js"></script>
 
   </head>
   <body>
@@ -50,7 +52,6 @@
         <footer class="center-block text-center">
             Written by <a href="/about">Saksham Uppal</a>. Developed by <a href="http://tilomitra.com">Tilo Mitra</a>. Made with <i class="em em-heart"></i> in Toronto.
         </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="/javascripts/bootstrap.min.js" async></script>
+        <script src="/javascripts/bootstrap.min.js"></script>
   </body>
 </html>

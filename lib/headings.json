@@ -19,12 +19,15 @@
         "modules": [
             {
                 "text": "Welcome to Teach Me Product",
+                "number": "1",
                 "draft": false,
                 "link": "1_Welcome-to-Teach-Me-Product",
-                "excerpt": "Learn more about why TMP was created, who it's meant for, and how to use it - including caveats to keep in mind."
+                "excerpt": "Learn more about why Teach Me Product was created, who it's meant for, and how to use it - including caveats to keep in mind."
             },
             {
                 "text": "Introduction to product management",
+                "number": "2",
+                "shortDescription": "TBD",
                 "draft": false,
                 "link": "2_Introduction-to-product-management",
                 "excerpt": "Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development lifecycles."
@@ -42,23 +45,23 @@
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/1draft_Business-basics.md",
-                "name": "1draft_Business-basics.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/3_Business-basics.md",
+                "name": "3_Business-basics.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/2draft_Innovation-basics.md",
-                "name": "2draft_Innovation-basics.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/4_Innovation-basics.md",
+                "name": "4_Innovation-basics.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/3draft_Lean-Startup-overview.md",
-                "name": "3draft_Lean-Startup-overview.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/5_Lean-Startup-overview.md",
+                "name": "5_Lean-Startup-overview.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/4draft_Technology-overview.md",
-                "name": "4draft_Technology-overview.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/6_Technology-overview.md",
+                "name": "6_Technology-overview.md",
                 "type": "file"
             }
         ],
@@ -66,26 +69,30 @@
         "modules": [
             {
                 "text": "Business basics",
+                "number": "3",
                 "draft": true,
-                "link": "1draft_Business-basics",
+                "link": "3_Business-basics",
                 "excerpt": "Learn business fundamentals in the context of the PM role. This module covers business fundamentals and analyses, the business case, the business model, and the business model canvas."
             },
             {
                 "text": "Innovation basics",
+                "number": "4",
                 "draft": true,
-                "link": "2draft_Innovation-basics",
+                "link": "4_Innovation-basics",
                 "excerpt": "Learn how new products are able to successfully gain adoption. This module introduces popular innovation concepts including the innovation adoption lifecycle, the \"chasm\" concept, the four gears model, and disruptive innovation."
             },
             {
                 "text": "Lean Startup overview",
+                "number": "5",
                 "draft": true,
-                "link": "3draft_Lean-Startup-overview",
+                "link": "5_Lean-Startup-overview",
                 "excerpt": "Learn the principles and motivation behind the lean startup model, as well as key terminology. Also, see how it applies to product management."
             },
             {
                 "text": "Technology overview",
+                "number": "6",
                 "draft": true,
-                "link": "4draft_Technology-overview",
+                "link": "6_Technology-overview",
                 "excerpt": "Get an overview of key technology topics relevant to software PMs including different types of software, web and mobile app basics, APIs, tech debt, migrations, working effectively with Engineering, and learning to code."
             }
         ]
@@ -101,117 +108,115 @@
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/10draft_Iteration-and-optimization.md",
-                "name": "10draft_Iteration-and-optimization.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/10_Product-design.md",
+                "name": "10_Product-design.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/1draft_Ideation.md",
-                "name": "1draft_Ideation.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/11_Product-planning.md",
+                "name": "11_Product-planning.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/2draft_Opportunity-discovery.md",
-                "name": "2draft_Opportunity-discovery.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/12_Product-development.md",
+                "name": "12_Product-development.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/3draft_Product-framing.md",
-                "name": "3draft_Product-framing.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/13_Analytics.md",
+                "name": "13_Analytics.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/4draft_Product-discovery.md",
-                "name": "4draft_Product-discovery.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/14_Launch.md",
+                "name": "14_Launch.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/5draft_Product-design.md",
-                "name": "5draft_Product-design.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/15_Iteration-and-optimization.md",
+                "name": "15_Iteration-and-optimization.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/6draft_Product-planning.md",
-                "name": "6draft_Product-planning.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/7_Opportunity-discovery.md",
+                "name": "7_Opportunity-discovery.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/7draft_Product-development.md",
-                "name": "7draft_Product-development.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/8_Product-framing.md",
+                "name": "8_Product-framing.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/8draft_Analytics.md",
-                "name": "8draft_Analytics.md",
-                "type": "file"
-            },
-            {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/9draft_Launch.md",
-                "name": "9draft_Launch.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/9_Product-discovery.md",
+                "name": "9_Product-discovery.md",
                 "type": "file"
             }
         ],
         "displayName": "Core",
         "modules": [
             {
-                "text": "Iteration and optimization",
-                "draft": true,
-                "link": "10draft_Iteration-and-optimization",
-                "excerpt": "Learn about how to review processes and outcomes post-launch, key product quality considerations, and kicking off a new cycle."
-            },
-            {
-                "text": "Ideation",
-                "draft": true,
-                "link": "1draft_Ideation",
-                "excerpt": "Learn more about generating new ideas for products and features, including techniques and sources of ideas."
-            },
-            {
-                "text": "Opportunity discovery",
-                "draft": true,
-                "link": "2draft_Opportunity-discovery",
-                "excerpt": "Learn how to explore the customer \"problem\", through understanding customer needs and behaviours, and assess the size of an opportunity."
-            },
-            {
-                "text": "Product framing",
-                "draft": true,
-                "link": "3draft_Product-framing",
-                "excerpt": "Learn how to frame a product at the highest level by defining the product vision, strategy, principles, and success metrics."
-            },
-            {
-                "text": "Product discovery",
-                "draft": true,
-                "link": "4draft_Product-discovery",
-                "excerpt": "Learn how to explore potential product \"solutions\" by testing for a solution's demand, value, usability, and feasibility."
-            },
-            {
                 "text": "Product design",
+                "number": "1",
                 "draft": true,
-                "link": "5draft_Product-design",
+                "link": "10_Product-design",
                 "excerpt": "Get an overview of topics including the Lean UX approach, working effectively with Designers, and considerations when designing for usability."
             },
             {
                 "text": "Product planning",
+                "number": "1",
                 "draft": true,
-                "link": "6draft_Product-planning",
+                "link": "11_Product-planning",
                 "excerpt": "Learn about how to plan your product. Topics covered include the product roadmap, product requirement documents, and how to define and prioritize features."
             },
             {
                 "text": "Product development",
+                "number": "1",
                 "draft": true,
-                "link": "7draft_Product-development",
+                "link": "12_Product-development",
                 "excerpt": "Learn more about the process of building a product. Topics covered include agile, SCRUM, user stories, creating and maintaining a backlog, and running concurrent design and development sprints."
             },
             {
                 "text": "Analytics",
+                "number": "1",
                 "draft": true,
-                "link": "8draft_Analytics",
+                "link": "13_Analytics",
                 "excerpt": "Learn about the role of data and metrics in the product process. Topics covered include selecting metrics, popular analytics frameworks, overview of web analytics techniques, interpreting data, and tracking and tools."
             },
             {
                 "text": "Launch",
+                "number": "1",
                 "draft": true,
-                "link": "9draft_Launch",
+                "link": "14_Launch",
                 "excerpt": "Learn about different types of product and feature launches, as well as what to consider when planning a launch."
+            },
+            {
+                "text": "Iteration and optimization",
+                "number": "1",
+                "draft": true,
+                "link": "15_Iteration-and-optimization",
+                "excerpt": "Learn about how to review processes and outcomes post-launch, key product quality considerations, and kicking off a new cycle."
+            },
+            {
+                "text": "Opportunity discovery",
+                "number": "7",
+                "draft": true,
+                "link": "7_Opportunity-discovery",
+                "excerpt": "Learn how to explore the customer \"problem\", through understanding customer needs and behaviours, and assess the size of an opportunity."
+            },
+            {
+                "text": "Product framing",
+                "number": "8",
+                "draft": true,
+                "link": "8_Product-framing",
+                "excerpt": "Learn how to frame a product at the highest level by defining the product vision, strategy, principles, and success metrics."
+            },
+            {
+                "text": "Product discovery",
+                "number": "9",
+                "draft": true,
+                "link": "9_Product-discovery",
+                "excerpt": "Learn how to explore potential product \"solutions\" by testing for a solution's demand, value, usability, and feasibility."
             }
         ]
     },
@@ -221,18 +226,23 @@
         "type": "folder",
         "children": [
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/1draft_Breaking-into-the-PM-role.md",
-                "name": "1draft_Breaking-into-the-PM-role.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/.DS_Store",
+                "name": ".DS_Store",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/2draft_Communication-and-presentation-skills.md",
-                "name": "2draft_Communication-and-presentation-skills.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/16_Breaking-into-the-PM-role.md",
+                "name": "16_Breaking-into-the-PM-role.md",
                 "type": "file"
             },
             {
-                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/3draft_Additional-soft-skills-to-succeed.md",
-                "name": "3draft_Additional-soft-skills-to-succeed.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/17_Communication-and-presentation-skills.md",
+                "name": "17_Communication-and-presentation-skills.md",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/18_Additional-soft-skills-to-succeed.md",
+                "name": "18_Additional-soft-skills-to-succeed.md",
                 "type": "file"
             }
         ],
@@ -240,20 +250,23 @@
         "modules": [
             {
                 "text": "Breaking into the PM role",
+                "number": "1",
                 "draft": true,
-                "link": "1draft_Breaking-into-the-PM-role",
+                "link": "16_Breaking-into-the-PM-role",
                 "excerpt": "Learn more about commons path into the PM role, finding and applying to roles, preparing for interviews, and how to get more out of your first 90 days as a PM."
             },
             {
                 "text": "Communication and presentation skills",
+                "number": "1",
                 "draft": true,
-                "link": "2draft_Communication-and-presentation-skills",
+                "link": "17_Communication-and-presentation-skills",
                 "excerpt": "Learn how to communicate more effectively as a PM - both in written and verbal forms. Topics covered include giving effective presentations ( product reviews and demos), public speaking best practices, and written communication tips."
             },
             {
                 "text": "Additional soft skills to succeed",
+                "number": "1",
                 "draft": true,
-                "link": "3draft_Additional-soft-skills-to-succeed",
+                "link": "18_Additional-soft-skills-to-succeed",
                 "excerpt": "Learn more about various soft skills and tactics to succeed in the PM role. Topics covered include leading through influence, negotiation, time management, giving and receiving feedback, and team building."
             }
         ]
