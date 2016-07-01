@@ -121,11 +121,15 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
             var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
                 return v.link === mod;
             });
-            console.log(moduleDir.modules[submoduleIdx + 1] );
+            var thisModule = moduleDir.modules[submoduleIdx];
+
             res.render('module', {
                 content: content.html,
+                excerpt: thisModule.Excerpt,
+                url: 'https://teachmeproduct.com/m/' + thisModule.number,
                 heading: heading,
                 subheadings: subheadings,
+                title: thisModule.ShortDescription,
                 footnotes: footnotes,
                 currentModule: folder,
                 currentModule: mod,
@@ -148,11 +152,14 @@ router.get('/compile', function (req, res) {
             fo.modules = [];
 
             fo.children.forEach(function (f) {
+                // a file and not .DS_Store
                 if (f.type === 'file' && f.name.indexOf('Store') === -1) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
                     var content = marked(contentMd);
                     fo.modules.push({
-                        text: f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
+                        text: content.meta.Title,
+                        number: f.name[0],
+                        shortDescription: content.meta.ShortDescription,
                         draft: content.meta.Draft,
                         link: f.name.replace('.md', ''),
                         excerpt: content.meta.Excerpt

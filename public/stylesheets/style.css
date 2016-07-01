@@ -75,7 +75,7 @@ iframe {
 
 .link-source, .image-caption {
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .chapter-title, h3, h4, h5, h6 {
@@ -128,7 +128,7 @@ a:hover {
     font-weight: 300;
     text-align: center;
 }
-.banner .btn {
+.banner .btn-cta {
     margin-top: 20px;
     color: #333;
     background: white;
@@ -252,6 +252,18 @@ a:hover {
     cursor: pointer;
 }
 
+.sidebar-social {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.sidebar-social .btn,
+.sidebar-social .btn:active,
+.sidebar-social .btn:hover {
+    color: white !important;
+}
+
 .menu {
     width: 100%;
     background: white;
@@ -347,6 +359,21 @@ a:hover {
     color: #aaa;
     margin-bottom: 5px;
 }
+
+.email-signup-wrapper .row {
+    text-align:center;
+}
+
+.email-signup {
+    background: white;
+    margin: 20px auto;
+    padding: 10px;
+}
+.email-signup, .email-signup p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
 @media (max-width: 1200px) {
 
     body, p {

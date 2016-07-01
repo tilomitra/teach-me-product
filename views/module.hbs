@@ -8,11 +8,16 @@
         <li><a href="#references">References</a></li>
         {{/if}}
     </ul>
+    <div class="sidebar-social">
+        <h5>Spread the word</h5>
+        <a class="btn btn-tweet" target="_blank" href="https://twitter.com/intent/tweet?text={{title}}&url={{url}}&via=tilomitra">Tweet</a>
+        <a class="btn btn-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{url}}">Share on Facebook</a>
+        <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{url}}&title={{title}}&summary={{excerpt}}&source={{url}}">Share on LinkedIn</a>
+    </div>
 </div>
 <div class="module-body">
     <div class="module-content">
         {{{content}}}
-
         </div> <!-- close the last open h2 div. see the marked renderer for headings for details. -->
     </div>
     <hr/>

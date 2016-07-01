@@ -2,9 +2,13 @@
 <div class="banner">
     <h1>{{title}}</h1>
     <h2>Learn the fundamentals of software product management.</h2>
-    <a href="/modules/1_Intro/1_Welcome-to-Teach-Me-Product" class="btn btn-primary btn-lg">
+    <a href="/modules/1_Intro/1_Welcome-to-Teach-Me-Product" class="btn btn-cta btn-primary btn-lg">
         Get Started
     </a>
+
+    <div class="email-signup-wrapper">
+        {{> email}}
+    </div>
 </div>
 <div class="module-body module-home">
 
@@ -17,17 +21,17 @@
                 {{#each this.modules}}
                     {{#unless draft}}
                         <li>
-                            <a class="pull-right chapter-meta available-now" href="/modules/{{../../this.name}}/{{../this.link}}">Read Now</a>
+                            <a class="pull-right chapter-meta available-now" href="/modules/{{../this.name}}/{{this.link}}">Read Now</a>
                             <h4 class="chapter-contents-title">
-                                <a href="/modules/{{../../this.name}}/{{../this.link}}">{{../this.text}}</a>
+                                <a href="/modules/{{../this.name}}/{{this.link}}">{{this.text}}</a>
                             </h4>
-                            <p class="excerpt">{{../this.excerpt}}</p>
+                            <p class="excerpt">{{this.excerpt}}</p>
                         </li>
                     {{else}}
                         <li>
                             <span class="pull-right chapter-meta coming-soon">Coming Soon</span>
-                            <h4 class="chapter-contents-title">{{../this.text}}</h4>
-                            <p class="excerpt">{{../this.excerpt}}</p>
+                            <h4 class="chapter-contents-title">{{this.text}}</h4>
+                            <p class="excerpt">{{this.excerpt}}</p>
                         </li>
 
                     {{/unless}}
