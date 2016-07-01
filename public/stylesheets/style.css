@@ -262,6 +262,8 @@ a:hover {
 .sidebar-social .btn:active,
 .sidebar-social .btn:hover {
     color: white !important;
+    margin-bottom: 5px;
+    border-radius: 3px;
 }
 
 .menu {
