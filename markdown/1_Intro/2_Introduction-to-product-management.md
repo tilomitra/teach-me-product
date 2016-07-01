@@ -1,4 +1,6 @@
 ---
+Title: Introduction to product management
+ShortDescription: TBD
 Author: Saksham Uppal
 Draft: false
 Excerpt: Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development lifecycles.
