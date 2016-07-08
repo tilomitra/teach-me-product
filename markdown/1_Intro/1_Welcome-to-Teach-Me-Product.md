@@ -8,7 +8,7 @@ Excerpt: Learn more about why Teach Me Product was created, who it's meant for, 
 
 ## The motivation behind Teach Me Product
 
-[Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) famously claimed "[software is eating the world](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)", and there's no doubt that software is becoming integral in many aspects of our lives. Behind the scenes, Product Managers (PMs) play a valuable role in building the software products that you know and love. Rightfully so, with the growing importance of software and the importance of PMs in the process, product management is more in-demand than ever!
+[Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) famously claimed "[software is eating the world](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)", and there's no doubt that software is becoming integral in many aspects of our lives. Behind the scenes, Product Managers (PMs) play a valuable role in building the software products that you know and love. It's not a surprise then that with the growing importance of software and the value of PMs in the process, product management is more in-demand than ever!
 
 But while there's a lot of buzz around the craft...
 -   Many don't know what PMs do
@@ -41,7 +41,7 @@ I'm a strong believer that learning happens through an iterative loop of theory,
 ## Caveats
 
 Before going through the modules, you should note the following:
--   **Teach Me Product focuses on software product management** - Most broadly, product management is the process of understanding customer/market needs and leading a product's development to deliver on the needs of its customers/users. Just like Tesla has product managers for its cars, Proctor and Gamble has product managers for laundry detergent, and Intuit has product managers for accounting software. As one might expect, managing product for a physical good (e.g., a car) is different than that for a hardware product (e.g., the Fitbit), which is different for a software product (e.g., Facebook).
+-   **Teach Me Product focuses on software product management** - Most broadly, product management is the process of understanding customer/market needs and leading a product's development to deliver on the needs of its customers/users. Just like Tesla has product managers for its cars, Proctor and Gamble has product managers for its laundry detergent, and Intuit has product managers for its accounting software. As one might expect, product management for a physical good, hardware product, or software product differs in various ways. To keep things focused, Teach Me Product elaborates on software product management practices.
 
 -   **There is no "right" or "wrong" way to manage product** - The craft of product management is highly variable and as such it can be subjective. In modules, I present my own views and supplement them with additional resources. I share effective practices that I've come across and provide support with examples. I try my best to provide a balanced view on topics while also including my personal experiences. Different approaches may work for you; I encourage you to keep an open mind, learn, experiment, and see what works best for you.
 
