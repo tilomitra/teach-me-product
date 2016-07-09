@@ -171,8 +171,8 @@ Often times, in order to deliver, you need to assume roles including:
 -   **Fortune-teller** - You foresee potential opportunities or risks, and work to pursue or mitigate them, respectively.
 -   **Negotiator** - You win members of your team and company over to your side.
 
-### Common PM misconceptions
-Now that we've covered, at a high-level, the responsibilities of a PM, there's also a variety of assumptions and misunderstandings about what a PM does. To clear up some of them, PMs:
+## Common PM misconceptions
+Now that we've covered the responsibilities of a PM, there's also a variety of assumptions and misunderstandings about what a PM does. To clear up some of them, PMs:
 -   **Do not manage people** - Unless you're senior and oversee a team of PMs (e.g., as a Group Product Manager, Product Lead, Senior Manager, Director, or VP), you generally don't manage any people. Members of the product team, including Engineers and Designers, are all your peers.
 -   **Are not the sole source of ideas** - You walk in one day with an idea for what the ground-breaking product/feature, tell the team to work on it, and sit-back until it's launched to bask in the glory. This sounds nice but in reality product development is a highly iterative, collaborative process, where you're involved practically throughout. Ideas are often evolved through a hypothesis-driven approach and with various inputs.
 -   **Do not throw requirements over the fence to Engineers** - Often times you will be collaborating with your Engineers to develop requirements. Requirements do change even when things are being built as you discover new things.
