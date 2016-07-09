@@ -181,6 +181,7 @@ a:hover {
 }
 
 .module-body img {
+    max-width: 400px;
     display: block;
     margin: 0 auto;
 }
@@ -452,6 +453,11 @@ a:hover {
     body, p {
         font-size: 16px;
         line-height: 1.6;
+    }
+
+    .module-body iframe,
+    .module-body img {
+        max-width: 400px;
     }
 
     .menu-section-subtitle,
