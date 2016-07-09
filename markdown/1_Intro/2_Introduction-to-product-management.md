@@ -133,7 +133,7 @@ Note: It's possible to influence business objectives, and here is where excellen
 
 ### Knowing the space
 What are the trends? This can be broad and include things like:
--   **New technology adoption** - Are users adopting new technologies (e.g., smartwatches, VR devices, IOT, etc.) and what might be the implications and opportunities for you? Facebook was mindful of the rapid adoption of mobile devices and committed resources to creating a great mobile experience. By the end of 2014, 85% of monthly active users access Facebook through mobile and 70% of Facebook's ad revenue comes from mobile. [source](http://www.businessinsider.com/facebook-daily-active-users-q4-2014-2015-1, More Than 80% Of Facebook's Daily Users Are Mobile)
+-   **New technology adoption** - Are users adopting new technologies (e.g., smartwatches, VR devices, IOT, etc.) and what might be the implications and opportunities for you? Facebook was mindful of the rapid adoption of mobile devices and committed resources to creating a great mobile experience. By the end of 2014, 85% of monthly active users access Facebook through mobile and 70% of Facebook's ad revenue comes from mobile. [source](http://www.businessinsider.com/facebook-daily-active-users-q4-2014-2015-1 "More Than 80% Of Facebook's Daily Users Are Mobile")
 -   **Policy** - Is relevant policy changing or possible to shift? For example, if you're AirBnB, something like [Prop F](http://www.latimes.com/business/technology/la-fi-tn-airbnb-prop-f-san-francisco-20151029-htmlstory.html) could have a significant impact on you.
 -   **Consumer preferences** - How are relevant consumer preferences changing and what's driving them? Let's say you're in the business of selling clothes and data suggests that consumers are preferring to try clothing in-store to determine the right fit, and purchase online so they can explore designs and compare prices. You may want to then better facilitate this workflow through your product.
 -   **Shifts in labor, practices, business models, etc.** - Are models in an entire space changing? For example, with the rapid growth in self-employed workers, Intuit has expanded the QuickBooks Online offering to include [QuickBooks Online Self-Employed](http://marketmadhouse.com/intuit-growing-with-the-freelance-economy/) so bookkeeping needs for these workers are met.
@@ -305,7 +305,7 @@ The software development life cycle refers to the process of planning, designing
 <img src="/images/waterfall.jpeg" width="475" height="177" />
 [*The Waterfall approach is sequential and can span several months (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
 
--   **Agile** focuses on "adaptive planning, evolutionary development, early delivery, and continuous improvement". [source](https://en.wikipedia.org/wiki/Agile_software_development, Agile Software Development)
+-   **Agile** focuses on "adaptive planning, evolutionary development, early delivery, and continuous improvement". [source](https://en.wikipedia.org/wiki/Agile_software_development "Agile Software Development")
 
 <img src="/images/agile.jpeg" width="452" height="169" />
 [*The Agile approach is iterative and happens in small "sprints" usually lasting 1-2 weeks (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
