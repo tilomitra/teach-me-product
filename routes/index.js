@@ -91,6 +91,8 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
             footnotes.push(data);
 
+            console.log(data);
+
             return '<span class="link-source"><a class="link-souce--link" href="#fn-' + (data.number) + '"><sup>' + data.number + '</sup></a></span>';
         }
         else {
@@ -143,6 +145,7 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
             res.render('module', {
                 content: content.html,
+                meta: content.meta,
                 moduleNumber: thisModule.number,
                 excerpt: content.meta.Excerpt,
                 url: 'https://teachmeproduct.com/m/' + req.params.moduleName,

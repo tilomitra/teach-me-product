@@ -2,7 +2,7 @@
 <div class="sidebar">
     <ul>
         {{#each subheadings}}
-            <li><a href='{{this.anchor}}'>{{../moduleNumber}}.{{submoduleNumber}} {{text}}</a></li>
+            <li><a href='{{this.anchor}}'>{{../moduleNumber}}.{{submoduleNumber}} {{{text}}}</a></li>
         {{/each}}
         {{#if footnotes}}
         <li><a href="#references">References</a></li>
@@ -17,6 +17,9 @@
 </div>
 <div class="module-body">
     <div class="module-content">
+
+        <h2><span class="module-number">M{{moduleNumber}}</span>{{title}}</h2>
+        <div class="module-written-by">Written by {{meta.Author}}</div>
         {{{content}}}
         </div> <!-- close the last open h2 div. see the marked renderer for headings for details. -->
     </div>

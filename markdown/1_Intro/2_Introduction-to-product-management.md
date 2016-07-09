@@ -5,8 +5,6 @@ Draft: false
 Excerpt: Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development life cycles.
 ---
 
-# Introduction to product management
-
 *Facebook. Google Search. TurboTax. Dropbox. These are software products you’ve all heard of or use, and products that were made mainstream successes through countless hours of planning, designing, building, and optimization. Product management plays a crucial role in this journey, and is both a rewarding and challenging discipline. So let’s get started exploring product management!*
 
 *This section provides a high-level introduction to product management and is meant to give you a quick lay of the land. If you're new to the topics of software or product, it may seem like drinking out of a firehouse at first; however, the dots will connect as you progress through future modules where we explore many of the items mentioned below more deeply.*

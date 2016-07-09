@@ -49,8 +49,8 @@ img.profile {
 }
 
 .btn-default {
-    background: #577de8;
-    color: white !important;
+    background: #dafb19;
+    color: black !important;
     border: none;
     transition: all 0.3s;
 }
@@ -96,14 +96,26 @@ a:hover {
 
 
 .banner {
-    background: #4b6cb7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2b7fc7; /* fallback for old browsers */
     background-size: cover;
     height: 100vh;
     text-align: center;
-    padding-top: 40vh;
+    padding-top: 25vh;
+    position: relative;
 }
+
+
+.banner .arrow-down {
+  display: inline-block;
+  background: url('/images/arrow-down.png') no-repeat;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+}
+
 .banner h1 {
     max-width: 360px;
     text-align: center;
@@ -119,9 +131,8 @@ a:hover {
 
 .banner h2 {
     margin: 0;
-    padding-top: 15px;
     line-height: 1;
-    font-size: 24px;
+    font-size: 18px;
     color: rgba(255,255,255,0.75);
     font-weight: 300;
     text-align: center;
@@ -129,10 +140,11 @@ a:hover {
 .banner .btn-cta {
     margin-top: 20px;
     color: #333;
-    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background: #dafb19;
     font-size: 18px;
     border: none;
-
 }
 
 .chapter {
@@ -216,6 +228,17 @@ a:hover {
     font-style: normal;
 }
 
+.module-written-by {
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-left: 65px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
 .module-number {
     display: inline-block;
     background: #ccc;
@@ -345,14 +368,13 @@ a:hover {
     text-transform: uppercase;
     font-size: 14px;
     color: white;
-    background: #23d2a9;
     letter-spacing: 0.1em;
     transition: all 0.5s;
     cursor: pointer;
 }
-#topbar .navbar-brand:hover {
-    background: transparent;
-    color: #23d2a9;
+
+#topbar .navbar-brand img {
+    margin-top: -5px;
 }
 #topbar .navbar-toggle {
     border-radius: 0;
@@ -377,16 +399,15 @@ a:hover {
 
 
 .email-signup {
-    border-top: 1px solid rgba(255,255,255,0.1);
     margin: 40px auto 20px auto;
-    padding: 10px;
-    padding-top: 40px;
     width: 400px;
-}
-.email-signup  {
     font-family: 'Open Sans', sans-serif !important;
-    border: 1px solid rgba(255,255,255,0.1);
-    padding: 20px;
+    padding: 40px 20px 20px;
+}
+.email-signup h5 {
+    padding-bottom: 10px;
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
 }
 
 .email-signup #newsletter-email {
@@ -424,6 +445,7 @@ a:hover {
 .email-signup-wrapper-inverse .subhead {
     color: #aaa !important;
 }
+
 
 @media (max-width: 1200px) {
 
