@@ -1,7 +1,7 @@
 ---
 Title: Business basics
 Author: Saksham Uppal
-Draft: false
+Draft: true
 Excerpt: Learn business fundamentals in the context of the PM role. This module covers business fundamentals and analyses, the business case, the business model, and the business model canvas.
 ---
 
@@ -211,7 +211,7 @@ For example, at Intuit we had products that would create value for customers thr
 -   Money savings - E.g., Individuals can save money filing their taxes using [TurboTax](https://turbotax.intuit.com/)
 -   Practice growth - E.g., Accountants can leverage the [ProAdvisor Program](http://quickbooks.intuit.com/accountants/proadvisor) to attract more clients
 
-Beyond the benefits of individual products, there's an additional layer of value creation through the ongoing cultivation of the Intuit ecosystem, specifically through building several integrations between products so that customers can get even more benefit. For example, these integrations deliver value to Accountants that leverage [QuickBooks Online Accountant](https://quickbooks.intuit.com/accountant) to:
+Beyond the benefits of individual products, there's an additional layer of value creation through the ongoing cultivation of the Intuit ecosystem, specifically through building several integrations between products so that customers can get even more benefit. For example, these integrations deliver value to accountants that leverage [QuickBooks Online Accountant](https://quickbooks.intuit.com/accountant) to:
 1.  Manage their own practice and their own accounting
 2.  Work on their client's books which are on QuickBooks Online
 3.  Employ the [Trial Balance](http://quickbooks.intuit.com/accountants/resources/tools-books-to-tax/) feature to ensure accounts are balanced
@@ -220,12 +220,12 @@ Beyond the benefits of individual products, there's an additional layer of value
 <br>
 **2. How do you deliver this value to customers?**
 
-Building on the Intuit example, different approaches are taken depending on the product. For example, with a product such as QuickBooks Online, there's a multi-pronged approach. Small businesses primarily sign up for a subscription directly through the online website and are reached through both inbound (e.g., blog posts, social media campaigns, etc.) and outbound (e.g., paid web advertising, conferences, etc.) marketing efforts. Large accounting firms purchase bulk subscriptions for their clients by engaging with members of the Intuit Sales Team. Additionally, Accountants that use QuickBooks Online Accountant to manage their practice and clients’ books often act as champions for QuickBooks Online to their customers and help to drive its adoption. These are just some of the means by which Intuit is able to get QuickBooks Online to customers.
+Building on the Intuit example, different approaches are taken depending on the product. For example, with a product such as QuickBooks Online, there's a multi-pronged approach. Small businesses primarily sign up for a subscription directly through the online website and are reached through both inbound (e.g., blog posts, social media campaigns, etc.) and outbound (e.g., paid web advertising, conferences, etc.) marketing efforts. Large accounting firms purchase bulk subscriptions for their clients by engaging with members of the Intuit Sales Team. Additionally, accountants that use QuickBooks Online Accountant to manage their practice and clients’ books often act as champions for QuickBooks Online to their customers and help to drive its adoption. These are just some of the means by which Intuit is able to get QuickBooks Online to customers.
 
 <br>
 **3. How do you capture value for the business?**
 
-Continuing on with our example, Intuit has over [30 products](https://www.intuit.com/products/), with many but not all directly contributing to the company's revenue and employing different models. For instance, QuickBooks Desktop is sold per user license while QuickBooks Online is subscription based. [Mint](https://www.mint.com) on the other hands is free for users but has generated revenue through means such as in-product referrals (i.e., Mint users sign-up for services promoted within the app) and ads (i.e., Mint sells ads space within the app), and fees on certain in-product bill payments. QuickBooks Online Accountant is free entirely but acts as channel to help drive new QuickBooks Online subscriptions as Accountants bring their clients onboard.
+Continuing on with our example, Intuit has over [30 products](https://www.intuit.com/products/), with many but not all directly contributing to the company's revenue and employing different models. For instance, QuickBooks Desktop is sold per user license while QuickBooks Online is subscription based. [Mint](https://www.mint.com) on the other hands is free for users but has generated revenue through means such as in-product referrals (i.e., Mint users sign-up for services promoted within the app) and ads (i.e., Mint sells ads space within the app). QuickBooks Online Accountant is entirely free but acts as a channel to help drive new QuickBooks Online subscriptions as accountants bring their clients onboard.
 
 <br>
 **4. How has this value capture been trending across your company's offerings?**
