@@ -4,7 +4,7 @@ Author: Saksham Uppal
 Draft: false
 Excerpt: Learn more about why Teach Me Product was created, who it's meant for, and how to use it - including caveats to keep in mind.
 ---
-# Module 1 - Welcome to Teach Me Product
+# Welcome to Teach Me Product
 
 ## The motivation behind Teach Me Product
 

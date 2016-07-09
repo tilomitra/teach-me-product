@@ -5,7 +5,7 @@ Draft: false
 Excerpt: Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development life cycles.
 ---
 
-# Module 2 - Introduction to product management
+# Introduction to product management
 
 *Facebook. Google Search. TurboTax. Dropbox. These are software products you’ve all heard of or use, and products that were made mainstream successes through countless hours of planning, designing, building, and optimization. Product management plays a crucial role in this journey, and is both a rewarding and challenging discipline. So let’s get started exploring product management!*
 
@@ -25,7 +25,7 @@ To share an example - Facebook, specifically the website and mobile app, is a so
 
 ## What is product management?
 
-Simply put, product management is understanding what users (internal or external to the company) need, and then defining, delivering, measuring, and iterating on the solution to meet those needs. 
+Simply put, product management is understanding what users (internal or external to the company) need, and then defining, delivering, measuring, and iterating on the solution to meet those needs.
 
 Product management is an essential practice in software companies and can include both internal and external products. An example of an internal product could be a forecasting tool that a company such as [Plated](http://www.plated.com) builds for their operations team so that they have a sense of what future demand may be and can order inventory accordingly. An example of an external product could be the iPhone app that [Uber](http://www.uber.com) offers customers so they can order a cab.
 

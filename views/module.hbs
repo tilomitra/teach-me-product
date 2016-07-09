@@ -2,7 +2,7 @@
 <div class="sidebar">
     <ul>
         {{#each subheadings}}
-            <li><a href='{{this.anchor}}'>{{moduleNumber}}.{{submoduleNumber}} {{text}}</a></li>
+            <li><a href='{{this.anchor}}'>{{../moduleNumber}}.{{submoduleNumber}} {{text}}</a></li>
         {{/each}}
         {{#if footnotes}}
         <li><a href="#references">References</a></li>

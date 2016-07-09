@@ -1,6 +1,6 @@
 
 <div class="banner">
-    <h1>{{title}}</h1>
+    <h1><img src="/images/logo_name_light.png" alt="Teach me product" width="360" height="auto"/></h1>
     <h2>Learn the fundamentals of software product management.</h2>
     <a href="/modules/1_Intro/1_Welcome-to-Teach-Me-Product" class="btn btn-cta btn-primary btn-lg">
         Get Started
@@ -17,10 +17,11 @@
             <h3 class="chapter-title">{{this.displayName}}</h3>
         </div>
         <div class="chapter-contents">
-            <ol class="chapter-contents-list">
+            <ul class="chapter-contents-list">
                 {{#each this.modules}}
                     {{#unless draft}}
                         <li>
+                            <span class="chapter-contents-list-number pull-left">{{this.number}}</span>
                             <a class="pull-right chapter-meta available-now" href="/modules/{{../this.name}}/{{this.link}}">Read Now</a>
                             <h4 class="chapter-contents-title">
                                 <a href="/modules/{{../this.name}}/{{this.link}}">{{this.text}}</a>
@@ -29,6 +30,7 @@
                         </li>
                     {{else}}
                         <li>
+                            <span class="chapter-contents-list-number pull-left">{{this.number}}</span>
                             <span class="pull-right chapter-meta coming-soon">Coming Soon</span>
                             <h4 class="chapter-contents-title">{{this.text}}</h4>
                             <p class="excerpt">{{this.excerpt}}</p>
@@ -37,7 +39,7 @@
                     {{/unless}}
 
                 {{/each}}
-            </ol>
+            </ul>
         </div>
     {{/each}}
 </div>

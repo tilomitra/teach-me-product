@@ -10,6 +10,11 @@ var router = express.Router();
 router.get('/', function(req, res) {
     var Headings = require(path.join(CWD, 'lib/headings.json'));
 
+    Headings.forEach(function (h) {
+        h.modules = _.sortBy(h.modules, 'number');
+    });
+
+
     res.render('index', {
       title: 'Teach Me Product',
       headings: Headings,
@@ -54,6 +59,13 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
     var footnotes = [];
     var renderer = new marked.Renderer();
 
+    var moduleDir = _.findWhere(Headings, {name: folder});
+    var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
+        return v.link === mod;
+    });
+    var thisModule = moduleDir.modules[submoduleIdx];
+
+
     renderer.image = function (href, title, text) {
         return '<div class="image-wrapper">' +
             "<img src='" + href + "' alt='" + title + "'>'" +
@@ -90,14 +102,13 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
     renderer.heading = function (text, level) {
         var dashSpaced = text.replace(/[^A-Z0-9]/ig, "-").toLowerCase();
         var submoduleNumber;
+        var moduleNumber = thisModule.number;
         if (level === 1) {
-            moduleNumber = parseInt(text.match(/(\d+)/)[0]);
             heading = {
-                moduleNumber: moduleNumber,
                 anchor: '#' + dashSpaced,
                 text: text
             };
-            return '<h1 class="heading" id="' + dashSpaced + '">' + text + '</h1>';
+            return '<h1 class="heading" id="' + dashSpaced + '"><span class="module-number">M' + moduleNumber + '</span>' + text + '</h1>';
         }
         else if (level === 2) {
             submoduleNumber = subheadings.length+1;
@@ -129,14 +140,10 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
         else {
             var content = marked(contents, { renderer: renderer });
-            var moduleDir = _.findWhere(Headings, {name: folder});
-            var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
-                return v.link === mod;
-            });
-            var thisModule = moduleDir.modules[submoduleIdx];
 
             res.render('module', {
                 content: content.html,
+                moduleNumber: thisModule.number,
                 excerpt: content.meta.Excerpt,
                 url: 'https://teachmeproduct.com/m/' + req.params.moduleName,
                 heading: heading,
@@ -174,7 +181,7 @@ router.get('/compile', function (req, res) {
                     var content = marked(contentMd);
                     fo.modules.push({
                         text: content.meta.Title || f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
-                        number: f.name[0],
+                        number: parseInt(f.name.split('_')[0]),
                         shortDescription: content.meta.ShortDescription,
                         draft: content.meta.Draft,
                         link: f.name.replace('.md', ''),
