@@ -457,7 +457,8 @@ a:hover {
 
     .module-body iframe,
     .module-body img {
-        max-width: 400px;
+        max-width: 400px !important;
+        overflow: hidden !important;
     }
 
     .menu-section-subtitle,
