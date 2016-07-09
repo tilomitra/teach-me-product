@@ -111,9 +111,7 @@ a:hover {
     padding: 10px;
     color: white;
     text-transform: uppercase;
-    background: #23d2a9;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 24px;
@@ -148,6 +146,12 @@ a:hover {
 .chapter-contents-list {
     margin: 20px inherit;
     padding: 10px 0 10px 10px;
+    list-style: none;
+}
+.chapter-contents-list-number {
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: -3px;
 }
 
 .module-main {
@@ -212,6 +216,15 @@ a:hover {
     font-style: normal;
 }
 
+.module-number {
+    display: inline-block;
+    background: #ccc;
+    color: white;
+    border-radius: 5px;
+    font-size: 90%;
+    padding: 3px 10px;
+    margin-right: 10px;
+}
 .sidebar {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
