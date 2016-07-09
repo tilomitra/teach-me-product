@@ -169,18 +169,6 @@ Often times, in order to deliver, you need to assume roles including:
 -   **Fortune-teller** - You foresee potential opportunities or risks, and work to pursue or mitigate them, respectively.
 -   **Negotiator** - You win members of your team and company over to your side.
 
-## Common PM misconceptions
-Now that we've covered the responsibilities of a PM, there's also a variety of assumptions and misunderstandings about what a PM does. To clear up some of them, PMs:
--   **Do not manage people** - Unless you're senior and oversee a team of PMs (e.g., as a Group Product Manager, Product Lead, Senior Manager, Director, or VP), you generally don't manage any people. Members of the product team, including Engineers and Designers, are all your peers.
--   **Are not the sole source of ideas** - You walk in one day with an idea for what the ground-breaking product/feature, tell the team to work on it, and sit-back until it's launched to bask in the glory. This sounds nice but in reality product development is a highly iterative, collaborative process, where you're involved practically throughout. Ideas are often evolved through a hypothesis-driven approach and with various inputs.
--   **Do not throw requirements over the fence to Engineers** - Often times you will be collaborating with your Engineers to develop requirements. Requirements do change even when things are being built as you discover new things.
--   **Do not program code that's deployed to users** - This is not to say that this has never happened or will never happen in the future (e.g., you might need to be scrappy at a 3-person startup so you're part-time PM and part-time Developer). It's just that for most PMs, this is not the case. Being a PM is a meaty enough role that if you do it right, you'll have your hands full. Depending on your proficiency with coding and the organizational norm, you may from time to time pull together quick prototypes to convey an idea or scripts to analyze and share data internally.
--   **Do not tell Engineers how to solve problems** - You should be explaining to the team "what" needs to be done and allow the engineers to determine "how" to do it. Even if you have a technical background, trust them to own their domain.
--   **Are not finished once the product ships** - You're usually tasked with having a product or feature that you release meet some target outcome so your job doesn't end after you ship. Instead, after you ship, you usually iterate by reviewing how your product/feature is doing, and improving facets, such as functionality or quality.
-
-
-If you want a chuckle about the PM role watch this short clip:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZiBeKrwfU90" frameborder="0" allowfullscreen></iframe>
 <br>
 **I encourage you to read these additional perspectives on the PM role:**
 -   [A Product Manager’s Job](https://medium.com/@joshelman/a-product-managers-job-63c09a43d0ec#.ovrm5dp44) by Josh Elman
@@ -194,6 +182,20 @@ If you want a chuckle about the PM role watch this short clip:
 -   [Product Managers: Who are these ‘mini-CEOs’ and what do they do?](http://thenextweb.com/insider/2013/10/12/product-managers-mini-ceos/) by Ken Yeung
 -   [What, exactly, is a Product Manager?](http://www.mindtheproduct.com/2011/10/what-exactly-is-a-product-manager/) by Martin Eriksson
 -   [The Art of Product Management](http://www.sachinrekhi.com/the-art-of-product-management) by Sachin Rekhi
+
+
+## Common PM misconceptions
+Now that we've covered the responsibilities of a PM, there's also a variety of assumptions and misunderstandings about what a PM does. To clear up some of them, PMs:
+-   **Do not manage people** - Unless you're senior and oversee a team of PMs (e.g., as a Group Product Manager, Product Lead, Senior Manager, Director, or VP), you generally don't manage any people. Members of the product team, including Engineers and Designers, are all your peers.
+-   **Are not the sole source of ideas** - You walk in one day with an idea for what the ground-breaking product/feature, tell the team to work on it, and sit-back until it's launched to bask in the glory. This sounds nice but in reality product development is a highly iterative, collaborative process, where you're involved practically throughout. Ideas are often evolved through a hypothesis-driven approach and with various inputs.
+-   **Do not throw requirements over the fence to Engineers** - Often times you will be collaborating with your Engineers to develop requirements. Requirements do change even when things are being built as you discover new things.
+-   **Do not program code that's deployed to users** - This is not to say that this has never happened or will never happen in the future (e.g., you might need to be scrappy at a 3-person startup so you're part-time PM and part-time Developer). It's just that for most PMs, this is not the case. Being a PM is a meaty enough role that if you do it right, you'll have your hands full. Depending on your proficiency with coding and the organizational norm, you may from time to time pull together quick prototypes to convey an idea or scripts to analyze and share data internally.
+-   **Do not tell Engineers how to solve problems** - You should be explaining to the team "what" needs to be done and allow the engineers to determine "how" to do it. Even if you have a technical background, trust them to own their domain.
+-   **Are not finished once the product ships** - You're usually tasked with having a product or feature that you release meet some target outcome so your job doesn't end after you ship. Instead, after you ship, you usually iterate by reviewing how your product/feature is doing, and improving facets, such as functionality or quality.
+
+
+If you want a chuckle about the PM role watch this short clip: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZiBeKrwfU90" frameborder="0" allowfullscreen></iframe>
 
 
 ## A day in the life of a PM
@@ -300,12 +302,12 @@ The framework has its origins in physical products (that's why you see reference
 The software development life cycle refers to the process of planning, designing, and developing software. As expected, there are several different ways of doing so; each have their own pros and cons and are applicable in different product scenarios. Two major approaches to be familiar with are:
 
 -   **Waterfall** (also called Traditional Development) has a sequenced approach to software development, where the key stages in the diagram below are completed one after another.
-<img src="/images/waterfall.jpeg" width="475" height="177" />
+<img src="/images/waterfall.jpeg" width="490" height="177" />
 [*The Waterfall approach is sequential and can span several months (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
 
 -   **Agile** focuses on "adaptive planning, evolutionary development, early delivery, and continuous improvement". [source](https://en.wikipedia.org/wiki/Agile_software_development "Agile Software Development")
 
-<img src="/images/agile.jpeg" width="452" height="169" />
+<img src="/images/agile.jpeg" width="480" height="169" />
 [*The Agile approach is iterative and happens in small "sprints" usually lasting 1-2 weeks (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
 
 Read through an expanded overview of each approach [here](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/). Currently in software development, Agile practices are preferred over Waterfall since they allow product teams to illicit more customer feedback through frequent smaller releases, and make faster changes based on new learning. We cover how to employ Agile and SCRUM, one of the most popular ways in which Agile is employed, in a future module.
