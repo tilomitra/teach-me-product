@@ -49,13 +49,15 @@ img.profile {
 }
 
 .btn-default {
-    background: #dafb19;
-    color: black !important;
+    background: #2B7EC6;
+    color: white !important;
     border: none;
     transition: all 0.3s;
 }
 .btn-default:hover {
-    background: #5957e8;
+    /*background: #DAFF19; */
+    background: #b6d53b;
+    color: black !important;
     border: none;
 }
 
@@ -94,9 +96,10 @@ a:hover {
     color: #577de8;
 }
 
-
 .banner {
-    background: #2b7fc7; /* fallback for old browsers */
+    /*background: #2b7fc7;  fallback for old browsers */
+    background: #fff; 
+    background-image: linear-gradient(0deg, white, transparent), url("/images/banner_img.jpg");
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -117,7 +120,7 @@ a:hover {
 }
 
 .banner h1 {
-    max-width: 360px;
+    /*max-width: 360px;*/
     text-align: center;
     margin: 0 auto;
     padding: 10px;
@@ -131,18 +134,22 @@ a:hover {
 
 .banner h2 {
     margin: 0;
+    padding-top: 5em;
     line-height: 1;
-    font-size: 18px;
-    color: rgba(255,255,255,0.75);
-    font-weight: 300;
+    font-size: 22px;
+/*    color: rgba(255,255,255,0.75); */
+    color: rgba(0,0,0,0.75);
+    font-weight: 400;
     text-align: center;
 }
+
 .banner .btn-cta {
     margin-top: 20px;
-    color: #333;
+    color: #fff;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-    background: #dafb19;
+    /*background: #dafb19;*/
+    background: #2C82CD;
     font-size: 18px;
     border: none;
 }
@@ -202,18 +209,25 @@ a:hover {
 }
 
 .coming-soon {
-    border: 1px solid #23d2a9;
+/*    border: 1px solid #23d2a9;
     color: #23d2a9;
+*/
+    border: 1px solid #8b8989;
+    color: #8b8989;
+
 }
 
 .available-now {
-    border: 1px solid #577de8;
+/*    border: 1px solid #577de8; */
+    border: 1px solid #2B7EC6;
 
     text-decoration: none;
-    color: #577de8 !important;
+    color: #2B7EC6 !important;
 }
 .available-now:hover {
-    background: #577de8;
+/*    background: #577de8; */
+
+    background: #2B7EC6; 
     text-decoration: none;
     color: white !important;
 }
@@ -242,7 +256,7 @@ a:hover {
 }
 .module-number {
     display: inline-block;
-    background: #ccc;
+    background: #2B7EC6;
     color: white;
     border-radius: 5px;
     font-size: 90%;
@@ -358,7 +372,8 @@ a:hover {
 }
 
 .menu-section-header {
-    color: #23d2a9;
+    /*color: #23d2a9;*/
+    color: #b6d53b;
 }
 .menu-section-subtitle {
     padding-left: 15px;
@@ -383,7 +398,7 @@ a:hover {
 }
 
 #topbar .navbar-toggle .icon-bar {
-    background: #23d2a9;
+    background: #b6d53b;
 }
 
 #topbar .navbar-collapse.collapsing,
@@ -407,8 +422,9 @@ a:hover {
 }
 .email-signup h5 {
     padding-bottom: 10px;
-    color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.8);
     font-size: 14px;
+    margin: 0;
 }
 
 .email-signup #newsletter-email {
@@ -423,11 +439,6 @@ a:hover {
     font-size: 16px !important;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-}
-
-.email-signup h5 {
-    color: white;
-    margin: 0;
 }
 
 .email-signup .subhead {
