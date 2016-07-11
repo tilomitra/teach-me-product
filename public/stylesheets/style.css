@@ -97,8 +97,7 @@ a:hover {
 }
 
 .banner {
-    /*background: #2b7fc7;  fallback for old browsers */
-    background: #fff; 
+    background: #fff;   /* fallback for old browsers */
     background-image: linear-gradient(0deg, white, transparent), url("/images/banner_img.jpg");
     background-size: cover;
     height: 100vh;
@@ -119,8 +118,9 @@ a:hover {
   bottom: 20px;
 }
 
+
 .banner h1 {
-    /*max-width: 360px;*/
+    max-width: 750px;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
@@ -130,6 +130,14 @@ a:hover {
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 24px;
+    width: 100%;
+    height: auto;
+
+}
+
+.banner h1 img{
+    width: 100%;
+    height: auto;
 }
 
 .banner h2 {
@@ -137,7 +145,6 @@ a:hover {
 
     line-height: 1;
     font-size: 22px;
-/*    color: rgba(255,255,255,0.75); */
     color: rgba(0,0,0,0.75);
     font-weight: 400;
     text-align: center;
@@ -148,7 +155,6 @@ a:hover {
     color: #fff;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-    /*background: #dafb19;*/
     background: #2C82CD;
     font-size: 18px;
     border: none;
@@ -209,24 +215,18 @@ a:hover {
 }
 
 .coming-soon {
-/*    border: 1px solid #23d2a9;
-    color: #23d2a9;
-*/
     border: 1px solid #8b8989;
     color: #8b8989;
 
 }
 
 .available-now {
-/*    border: 1px solid #577de8; */
     border: 1px solid #2B7EC6;
 
     text-decoration: none;
     color: #2B7EC6 !important;
 }
 .available-now:hover {
-/*    background: #577de8; */
-
     background: #2B7EC6; 
     text-decoration: none;
     color: white !important;
@@ -372,7 +372,6 @@ a:hover {
 }
 
 .menu-section-header {
-    /*color: #23d2a9;*/
     color: #b6d53b;
 }
 .menu-section-subtitle {
