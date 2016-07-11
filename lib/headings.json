@@ -73,21 +73,21 @@
                 "number": 4,
                 "draft": true,
                 "link": "4_Innovation-basics",
-                "excerpt": "Learn how new products are able to successfully gain adoption. This module introduces popular innovation concepts including the innovation adoption lifecycle, the \"chasm\" concept, the four gears model, and disruptive innovation."
+                "excerpt": "Learn how new products are able to successfully gain adoption. This module introduces popular innovation concepts including the innovation adoption lifecycle and disruptive innovation."
             },
             {
                 "text": "Lean Startup overview",
                 "number": 5,
                 "draft": true,
                 "link": "5_Lean-Startup-overview",
-                "excerpt": "Learn the principles and motivation behind the lean startup model, as well as key terminology. Also, see how it applies to product management."
+                "excerpt": "Learn the principles and motivation behind the lean startup model, as well as key terminology. Also, see how its concepts apply to product management."
             },
             {
                 "text": "Technology overview",
                 "number": 6,
                 "draft": true,
                 "link": "6_Technology-overview",
-                "excerpt": "Get an overview of key technology topics relevant to software PMs including different types of software, web and mobile app basics, APIs, tech debt, migrations, working effectively with Engineering, and learning to code."
+                "excerpt": "Get an overview of relevant technology topics including different types of software, web and mobile app basics, APIs, tech debt, migrations, and working effectively with Engineering."
             }
         ]
     },
@@ -163,14 +163,14 @@
                 "number": 12,
                 "draft": true,
                 "link": "12_Product-development",
-                "excerpt": "Learn more about the process of building a product. Topics covered include agile, SCRUM, user stories, creating and maintaining a backlog, and running concurrent design and development sprints."
+                "excerpt": "Learn more about the process of building a product. Topics covered include agile, SCRUM, user stories, the backlog, and running concurrent design and development sprints."
             },
             {
                 "text": "Analytics",
                 "number": 13,
                 "draft": true,
                 "link": "13_Analytics",
-                "excerpt": "Learn about the role of data and metrics in the product process. Topics covered include selecting metrics, popular analytics frameworks, overview of web analytics techniques, interpreting data, and tracking and tools."
+                "excerpt": "Learn about the role of data in the product process. Topics covered include selecting metrics, popular analytics frameworks, overview of web analytics techniques, interpreting data, and tools."
             },
             {
                 "text": "Launch",
@@ -187,11 +187,11 @@
                 "excerpt": "Learn about how to review processes and outcomes post-launch, key product quality considerations, and kicking off a new cycle."
             },
             {
-                "text": "Opportunity discovery",
+                "text": "Problem exploration and opportunity assessment",
                 "number": 7,
                 "draft": true,
                 "link": "7_Opportunity-discovery",
-                "excerpt": "Learn how to explore the customer \"problem\", through understanding customer needs and behaviours, and assess opportunities."
+                "excerpt": "Learn how to explore the customer problem, through understanding customer needs and behaviours, and assess opportunities."
             },
             {
                 "text": "Product framing",
@@ -244,14 +244,14 @@
                 "number": 17,
                 "draft": true,
                 "link": "17_Communication-and-presentation-skills",
-                "excerpt": "Learn how to communicate more effectively as a PM - both in written and verbal forms. Topics covered include giving effective presentations ( product reviews and demos), public speaking best practices, and written communication tips."
+                "excerpt": "Learn more about communicating effectively as a PM. Topics covered include presentation and meeting best practices, and written communication tips."
             },
             {
                 "text": "Additional soft skills to succeed",
                 "number": 18,
                 "draft": true,
                 "link": "18_Additional-soft-skills-to-succeed",
-                "excerpt": "Learn more about various soft skills and tactics to succeed in the PM role. Topics covered include leading through influence, negotiation, time management, giving and receiving feedback, and team building."
+                "excerpt": "Learn more about various soft skills and tactics that are helpful for PMs. Topics covered include leading through influence, negotiation, time management, feedback, and team building."
             }
         ]
     }
