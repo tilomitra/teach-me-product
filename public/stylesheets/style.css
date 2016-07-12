@@ -77,8 +77,9 @@ iframe {
 
 .link-source, .image-caption {
     text-align: center;
-    margin: 10px auto;
+    margin: 0 auto 10px auto;
 }
+
 
 .chapter-title, h3, h4, h5, h6 {
     font-weight: 500;
@@ -116,6 +117,13 @@ a:hover {
   margin: 0 auto;
   position: absolute;
   bottom: 20px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 3px solid transparent;
+  transition: border-color 0.3s;
+}
+.banner .arrow-down:hover {
+    border: 3px solid #b6d53b;
 }
 
 
@@ -197,6 +205,7 @@ a:hover {
     max-width: 400px;
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 .excerpt {
@@ -227,7 +236,7 @@ a:hover {
     color: #2B7EC6 !important;
 }
 .available-now:hover {
-    background: #2B7EC6; 
+    background: #2B7EC6;
     text-decoration: none;
     color: white !important;
 }
@@ -274,12 +283,9 @@ a:hover {
     border-right: 1px solid #ddd;
     max-width: 300px;
     padding-top: 60px;
-    transition: opacity 0.5s;
+    opacity: 1;
 }
 
-.sidebar:hover {
-    opacity: 1 !important;
-}
 
 .sidebar ul {
     list-style: none;
@@ -458,7 +464,7 @@ a:hover {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
 
     body, p {
         font-size: 16px;
@@ -469,7 +475,7 @@ a:hover {
     .module-body img {
         width: 360px !important;
         overflow: hidden !important;
-        margin-left: -13px;
+        margin-left: 0 auto;
     }
 
     .menu-section-subtitle,
@@ -484,5 +490,11 @@ a:hover {
     }
     .module-body {
         padding: 0 20px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .email-signup {
+        width: 100%;
     }
 }

@@ -4,7 +4,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
     {{> mixpanel}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" media="screen" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400" rel="stylesheet">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-sharing/1.7.2/css/social-sharing.min.css">
@@ -37,7 +37,7 @@
                         {{#if subheadings}}
                         <li class="menu-section-header">Sections</li>
                         {{#each subheadings}}
-                            <li class="menu-section-subtitle"><a href='{{this.anchor}}'>{{moduleNumber}}.{{submoduleNumber}} {{text}}</a></li>
+                            <li class="menu-section-subtitle"><a href='{{this.anchor}}'>{{moduleNumber}}.{{submoduleNumber}} {{{text}}}</a></li>
                         {{/each}}
                         {{/if}}
                         {{#if footnotes}}
@@ -51,6 +51,7 @@
 
 
         {{> footer}}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+        <script src="/javascripts/bootstrap.min.js"></script>
+        <script src="//load.sumome.com/" data-sumo-site-id="42b0c19b8aa632a113a8d4f15b300368f0385592c2f74302b436b0318dc1c21a" async="async"></script>
   </body>
 </html>

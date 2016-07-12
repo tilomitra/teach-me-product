@@ -19,9 +19,9 @@
         {{> email}}
     </div>
 
-    <span class="arrow-down"></span>
+    <span class="arrow-down" id="scroll-down-btn"></span>
 </div>
-<div class="module-body module-home">
+<div class="module-body module-home" id="page-contents">
 
     {{#each headings}}
         <div class="chapter" id="chapter-{{this.name}}">
@@ -54,3 +54,21 @@
         </div>
     {{/each}}
 </div>
+
+<script>
+    function goToByScroll(id){
+      // Remove "link" from the ID
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("#"+id).offset().top - 100},
+        'slow');
+    }
+
+    $("#scroll-down-btn").click(function(e) {
+      // Prevent a page reload when a link is pressed
+    e.preventDefault();
+      // Call the scroll function
+    goToByScroll('page-contents');
+    });
+</script>
