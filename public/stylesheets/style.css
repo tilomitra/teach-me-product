@@ -117,8 +117,6 @@ a:hover {
   height: 32px;
   background-size: cover;
   margin: 0 auto;
-  position: absolute;
-  bottom: 20px;
   cursor: pointer;
   border-radius: 100px;
   border: 3px solid transparent;
@@ -195,7 +193,7 @@ a:hover {
     list-style: none;
 }
 .module-body.module-home {
-    max-width: 700px;
+    max-width: 690px;
 }
 
 .module-body {

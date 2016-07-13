@@ -45,13 +45,12 @@ router.get('/resources', function (req, res) {
     });
 });
 
-router.get('/modules/:folder/:moduleName', function (req, res) {
+
+router.get('/m/:moduleName', function (req, res) {
     var Headings = require(path.join(CWD, 'lib/headings.json'));
     var Modules = require(path.join(CWD, 'lib/modules.json'));
-    var folder = req.params.folder;
+    //var folder = req.params.folder;
     var mod = req.params.moduleName;
-
-
     var mdFolder = path.join(CWD, 'markdown/');
 
     var heading;
@@ -60,11 +59,17 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
     var footnotes = [];
     var renderer = new marked.Renderer();
 
-    var moduleDir = _.findWhere(Headings, {name: folder});
-    var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
-        return v.link === mod;
+    var thisModule = _.find(Modules, function (m) {
+        return (m.link.indexOf(mod) > 1);
     });
-    var thisModule = moduleDir.modules[submoduleIdx];
+
+    console.log(thisModule);
+    //
+    // var moduleDir = _.findWhere(Modules, {name: folder});
+    // var submoduleIdx = _.findIndex(moduleDir.modules, function (v) {
+    //     return v.link === mod;
+    // });
+    //var thisModule = moduleDir.modules[submoduleIdx];
 
 
     renderer.image = function (href, title, text) {
@@ -134,7 +139,7 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
         }
     };
 
-    fs.readFile(path.join(mdFolder, folder, mod + '.md'), 'utf8', (err, contents) => {
+    fs.readFile(path.join(mdFolder, thisModule.folder, thisModule.link + '.md'), 'utf8', (err, contents) => {
         if (err) {
             res.render('error', {
                 message: 'Module not found.'
@@ -157,8 +162,7 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
                 subheadings: subheadings,
                 title: thisModule.text,
                 footnotes: footnotes,
-                currentModule: folder,
-                currentModule: mod,
+                currentModule: thisModule,
                 prevSubmodule: prevSubmodule,
                 nextSubmodule: nextSubmodule,
                 mixpanel: {
@@ -190,11 +194,13 @@ router.get('/compile', function (req, res) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
                     var content = marked(contentMd);
                     var mod = {
+                        folder: fo.name,
                         text: content.meta.Title || f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
                         number: parseInt(f.name.split('_')[0]),
                         shortDescription: content.meta.ShortDescription,
                         draft: content.meta.Draft,
                         link: f.name.replace('.md', ''),
+                        shortLink: f.name.split('_')[1].replace('.md', ''),
                         excerpt: content.meta.Excerpt
                     }
                     fo.modules.push(mod);

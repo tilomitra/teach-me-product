@@ -18,17 +18,21 @@
         "displayName": "Intro",
         "modules": [
             {
+                "folder": "1_Intro",
                 "text": "Welcome to Teach Me Product",
                 "number": 1,
                 "draft": false,
                 "link": "1_Welcome-to-Teach-Me-Product",
+                "shortLink": "Welcome-to-Teach-Me-Product",
                 "excerpt": "Learn more about why Teach Me Product was created, who it's meant for, and how to use it - including caveats to keep in mind."
             },
             {
+                "folder": "1_Intro",
                 "text": "Introduction to product management",
                 "number": 2,
                 "draft": false,
                 "link": "2_Introduction-to-product-management",
+                "shortLink": "Introduction-to-product-management",
                 "excerpt": "Learn more about the practice of product management, the product team, and the PM role. Also, gain an introduction to the product and software development life cycles."
             }
         ]
@@ -67,31 +71,39 @@
         "displayName": "Supplementary",
         "modules": [
             {
+                "folder": "2_Supplementary",
                 "text": "Business basics",
                 "number": 3,
-                "draft": false,
+                "draft": true,
                 "link": "3_Business-basics",
+                "shortLink": "Business-basics",
                 "excerpt": "Learn business fundamentals in the context of the PM role. This module covers business fundamentals and analyses, the business case, the business model, and the business model canvas."
             },
             {
+                "folder": "2_Supplementary",
                 "text": "Innovation basics",
                 "number": 4,
                 "draft": true,
                 "link": "4_Innovation-basics",
+                "shortLink": "Innovation-basics",
                 "excerpt": "Learn how new products are able to successfully gain adoption. This module introduces popular innovation concepts including the innovation adoption lifecycle and disruptive innovation."
             },
             {
+                "folder": "2_Supplementary",
                 "text": "Lean Startup overview",
                 "number": 5,
                 "draft": true,
                 "link": "5_Lean-Startup-overview",
+                "shortLink": "Lean-Startup-overview",
                 "excerpt": "Learn the principles and motivation behind the lean startup model, as well as key terminology. Also, see how its concepts apply to product management."
             },
             {
+                "folder": "2_Supplementary",
                 "text": "Technology overview",
                 "number": 6,
                 "draft": true,
                 "link": "6_Technology-overview",
+                "shortLink": "Technology-overview",
                 "excerpt": "Get an overview of relevant technology topics including different types of software, web and mobile app basics, APIs, tech debt, migrations, and working effectively with Engineering."
             }
         ]
@@ -155,66 +167,84 @@
         "displayName": "Core",
         "modules": [
             {
+                "folder": "3_Core",
                 "text": "Product design",
                 "number": 10,
                 "draft": true,
                 "link": "10_Product-design",
+                "shortLink": "Product-design",
                 "excerpt": "Get an overview of topics including the Lean UX approach, working effectively with Designers, and considerations when designing for usability."
             },
             {
+                "folder": "3_Core",
                 "text": "Product planning",
                 "number": 11,
                 "draft": true,
                 "link": "11_Product-planning",
+                "shortLink": "Product-planning",
                 "excerpt": "Learn about how to plan your product. Topics covered include the product roadmap, product requirement documents, and how to define and prioritize features."
             },
             {
+                "folder": "3_Core",
                 "text": "Product development",
                 "number": 12,
                 "draft": true,
                 "link": "12_Product-development",
+                "shortLink": "Product-development",
                 "excerpt": "Learn more about the process of building a product. Topics covered include agile, SCRUM, user stories, the backlog, and running concurrent design and development sprints."
             },
             {
+                "folder": "3_Core",
                 "text": "Analytics",
                 "number": 13,
                 "draft": true,
                 "link": "13_Analytics",
+                "shortLink": "Analytics",
                 "excerpt": "Learn about the role of data in the product process. Topics covered include selecting metrics, popular analytics frameworks, overview of web analytics techniques, interpreting data, and tools."
             },
             {
+                "folder": "3_Core",
                 "text": "Launch",
                 "number": 14,
                 "draft": true,
                 "link": "14_Launch",
+                "shortLink": "Launch",
                 "excerpt": "Learn about different types of product and feature launches, as well as what to consider when planning a launch."
             },
             {
+                "folder": "3_Core",
                 "text": "Iteration and optimization",
                 "number": 15,
                 "draft": true,
                 "link": "15_Iteration-and-optimization",
+                "shortLink": "Iteration-and-optimization",
                 "excerpt": "Learn about how to review processes and outcomes post-launch, key product quality considerations, and kicking off a new cycle."
             },
             {
+                "folder": "3_Core",
                 "text": "Problem exploration and opportunity assessment",
                 "number": 7,
                 "draft": true,
                 "link": "7_Opportunity-discovery",
+                "shortLink": "Opportunity-discovery",
                 "excerpt": "Learn how to explore the customer problem, through understanding customer needs and behaviours, and assess opportunities."
             },
             {
+                "folder": "3_Core",
                 "text": "Product framing",
                 "number": 8,
                 "draft": true,
                 "link": "8_Product-framing",
+                "shortLink": "Product-framing",
                 "excerpt": "Learn how to frame a product at the highest level by defining the product vision, strategy, principles, and success metrics."
             },
             {
+                "folder": "3_Core",
                 "text": "Product discovery",
                 "number": 9,
                 "draft": true,
                 "link": "9_Product-discovery",
+                "shortLink": "Product-discovery",
                 "excerpt": "Learn how to explore potential product \"solutions\" by testing for a solution's demand, value, usability, and feasibility."
             }
         ]
@@ -248,24 +278,30 @@
         "displayName": "Professional Development",
         "modules": [
             {
+                "folder": "4_Professional-Development",
                 "text": "Breaking into the PM role",
                 "number": 16,
                 "draft": true,
                 "link": "16_Breaking-into-the-PM-role",
+                "shortLink": "Breaking-into-the-PM-role",
                 "excerpt": "Learn more about commons path into the PM role, finding and applying to roles, preparing for interviews, and how to get more out of your first 90 days as a PM."
             },
             {
+                "folder": "4_Professional-Development",
                 "text": "Communication and presentation skills",
                 "number": 17,
                 "draft": true,
                 "link": "17_Communication-and-presentation-skills",
+                "shortLink": "Communication-and-presentation-skills",
                 "excerpt": "Learn more about communicating effectively as a PM. Topics covered include presentation and meeting best practices, and written communication tips."
             },
             {
+                "folder": "4_Professional-Development",
                 "text": "Additional soft skills to succeed",
                 "number": 18,
                 "draft": true,
                 "link": "18_Additional-soft-skills-to-succeed",
+                "shortLink": "Additional-soft-skills-to-succeed",
                 "excerpt": "Learn more about various soft skills and tactics that are helpful for PMs. Topics covered include leading through influence, negotiation, time management, feedback, and team building."
             }
         ]
