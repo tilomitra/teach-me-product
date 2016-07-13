@@ -25,7 +25,7 @@
             {{#if prevSubmodule}}
                 <p>
                     <span class="module-control module-control-previous">Previous module</span>
-                    <a href="{{prevSubmodule.link}}" class="btn btn-default">
+                    <a href="{{prevSubmodule.shortLink}}" class="btn btn-default">
                         <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
                         {{prevSubmodule.number}} - {{prevSubmodule.text}}
                     </a>
@@ -37,7 +37,7 @@
                 <p style="text-align: right">
 
                     <span class="module-control module-control-next">Next module</span>
-                    <a href="{{nextSubmodule.link}}" class="btn btn-default">
+                    <a href="{{nextSubmodule.shortLink}}" class="btn btn-default">
                         {{nextSubmodule.number}} - {{nextSubmodule.text}}
                         <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                     </a>

@@ -28,10 +28,9 @@
             });
         }
 
-        $('#newsletter-submit-btn')
-        .removeClass('btn-default')
+        $('#newsletter-submit-btn').html('Subscribed!');
+        $('#newsletter-submit-btn').removeClass('btn-default')
         .addClass('btn-success')
-        .prop('disabled', true)
-        .prop('value', 'Thanks! We will be in touch!');
+        .prop('disabled', true);
     });
 </script>
