@@ -47,6 +47,7 @@ router.get('/resources', function (req, res) {
 
 router.get('/modules/:folder/:moduleName', function (req, res) {
     var Headings = require(path.join(CWD, 'lib/headings.json'));
+    var Modules = require(path.join(CWD, 'lib/modules.json'));
     var folder = req.params.folder;
     var mod = req.params.moduleName;
 
@@ -142,6 +143,9 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
 
         else {
             var content = marked(contents, { renderer: renderer });
+            var prevSubmodule = (Modules[thisModule.number - 2] && !Modules[thisModule.number - 2].draft) ? Modules[thisModule.number - 2] : null;
+            var nextSubmodule = (Modules[thisModule.number] && !Modules[thisModule.number].draft) ? Modules[thisModule.number] : null;
+
 
             res.render('module', {
                 content: content.html,
@@ -155,8 +159,8 @@ router.get('/modules/:folder/:moduleName', function (req, res) {
                 footnotes: footnotes,
                 currentModule: folder,
                 currentModule: mod,
-                prevSubmodule: moduleDir.modules[submoduleIdx - 1] || null,
-                nextSubmodule: moduleDir.modules[submoduleIdx + 1] || null,
+                prevSubmodule: prevSubmodule,
+                nextSubmodule: nextSubmodule,
                 mixpanel: {
                     pageType: 'Module',
                     pageName: thisModule.text
@@ -170,7 +174,10 @@ router.get('/compile', function (req, res) {
 
     var folderStructure = dirTree(path.join(CWD, 'markdown/'));
     var filePath = path.join(CWD, 'lib/headings.json');
+    var modulesPath = path.join(CWD, 'lib/modules.json');
+
     var headings = [];
+    var modules = [];
     folderStructure.children.forEach(function (fo) {
         if (fo.type === 'folder') {
 
@@ -182,14 +189,16 @@ router.get('/compile', function (req, res) {
                 if (f.type === 'file' && f.name.indexOf('Store') === -1) {
                     var contentMd = fs.readFileSync(f.path, 'utf-8');
                     var content = marked(contentMd);
-                    fo.modules.push({
+                    var mod = {
                         text: content.meta.Title || f.name.split('_')[1].replace(/-/g, ' ').replace('.md', ''),
                         number: parseInt(f.name.split('_')[0]),
                         shortDescription: content.meta.ShortDescription,
                         draft: content.meta.Draft,
                         link: f.name.replace('.md', ''),
                         excerpt: content.meta.Excerpt
-                    });
+                    }
+                    fo.modules.push(mod);
+                    modules.push(mod);
                 }
             });
             headings.push(fo);
@@ -197,7 +206,8 @@ router.get('/compile', function (req, res) {
     });
 
     fs.writeFileSync(filePath, JSON.stringify(headings, null, 4));
-    res.status(200).json({done: true, message: 'Generated new headings'});
+    fs.writeFileSync(modulesPath, JSON.stringify(modules, null, 4));
+    res.status(200).json({done: true, message: 'Generated new headings and modules'});
 });
 
 function dirTree(filename) {

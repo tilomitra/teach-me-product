@@ -1,16 +1,16 @@
 [
     {
-        "path": "/home/tempest/Desktop/teach-me-product/markdown//1_Intro",
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro",
         "name": "1_Intro",
         "type": "folder",
         "children": [
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//1_Intro/1_Welcome-to-Teach-Me-Product.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro/1_Welcome-to-Teach-Me-Product.md",
                 "name": "1_Welcome-to-Teach-Me-Product.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//1_Intro/2_Introduction-to-product-management.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//1_Intro/2_Introduction-to-product-management.md",
                 "name": "2_Introduction-to-product-management.md",
                 "type": "file"
             }
@@ -34,27 +34,32 @@
         ]
     },
     {
-        "path": "/home/tempest/Desktop/teach-me-product/markdown//2_Supplementary",
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary",
         "name": "2_Supplementary",
         "type": "folder",
         "children": [
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//2_Supplementary/3_Business-basics.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/.DS_Store",
+                "name": ".DS_Store",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/3_Business-basics.md",
                 "name": "3_Business-basics.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//2_Supplementary/4_Innovation-basics.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/4_Innovation-basics.md",
                 "name": "4_Innovation-basics.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//2_Supplementary/5_Lean-Startup-overview.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/5_Lean-Startup-overview.md",
                 "name": "5_Lean-Startup-overview.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//2_Supplementary/6_Technology-overview.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//2_Supplementary/6_Technology-overview.md",
                 "name": "6_Technology-overview.md",
                 "type": "file"
             }
@@ -64,7 +69,7 @@
             {
                 "text": "Business basics",
                 "number": 3,
-                "draft": true,
+                "draft": false,
                 "link": "3_Business-basics",
                 "excerpt": "Learn business fundamentals in the context of the PM role. This module covers business fundamentals and analyses, the business case, the business model, and the business model canvas."
             },
@@ -92,52 +97,57 @@
         ]
     },
     {
-        "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core",
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core",
         "name": "3_Core",
         "type": "folder",
         "children": [
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/10_Product-design.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/.DS_Store",
+                "name": ".DS_Store",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/10_Product-design.md",
                 "name": "10_Product-design.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/11_Product-planning.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/11_Product-planning.md",
                 "name": "11_Product-planning.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/12_Product-development.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/12_Product-development.md",
                 "name": "12_Product-development.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/13_Analytics.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/13_Analytics.md",
                 "name": "13_Analytics.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/14_Launch.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/14_Launch.md",
                 "name": "14_Launch.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/15_Iteration-and-optimization.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/15_Iteration-and-optimization.md",
                 "name": "15_Iteration-and-optimization.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/7_Opportunity-discovery.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/7_Opportunity-discovery.md",
                 "name": "7_Opportunity-discovery.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/8_Product-framing.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/8_Product-framing.md",
                 "name": "8_Product-framing.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//3_Core/9_Product-discovery.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//3_Core/9_Product-discovery.md",
                 "name": "9_Product-discovery.md",
                 "type": "file"
             }
@@ -210,22 +220,27 @@
         ]
     },
     {
-        "path": "/home/tempest/Desktop/teach-me-product/markdown//4_Professional-Development",
+        "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development",
         "name": "4_Professional-Development",
         "type": "folder",
         "children": [
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//4_Professional-Development/16_Breaking-into-the-PM-role.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/.DS_Store",
+                "name": ".DS_Store",
+                "type": "file"
+            },
+            {
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/16_Breaking-into-the-PM-role.md",
                 "name": "16_Breaking-into-the-PM-role.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//4_Professional-Development/17_Communication-and-presentation-skills.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/17_Communication-and-presentation-skills.md",
                 "name": "17_Communication-and-presentation-skills.md",
                 "type": "file"
             },
             {
-                "path": "/home/tempest/Desktop/teach-me-product/markdown//4_Professional-Development/18_Additional-soft-skills-to-succeed.md",
+                "path": "/Applications/MAMP/code/sandbox/software-pm/markdown//4_Professional-Development/18_Additional-soft-skills-to-succeed.md",
                 "name": "18_Additional-soft-skills-to-succeed.md",
                 "type": "file"
             }

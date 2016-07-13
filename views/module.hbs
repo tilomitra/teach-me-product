@@ -8,12 +8,6 @@
         <li><a href="#references">References</a></li>
         {{/if}}
     </ul>
-    <div class="sidebar-social">
-        <h5>Spread the word</h5>
-        <a class="btn btn-tweet" target="_blank" href="https://twitter.com/intent/tweet?text={{title}}&url={{url}}&via=tilomitra">Tweet</a>
-        <a class="btn btn-facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{url}}">Share on Facebook</a>
-        <a class="btn btn-linkedin" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{url}}&title={{title}}&summary={{excerpt}}&source={{url}}">Share on LinkedIn</a>
-    </div>
 </div>
 <div class="module-body">
     <div class="module-content">
@@ -26,26 +20,35 @@
     <hr/>
 
 
-        {{#if prevSubmodule}}
-            <p>
-                <span class="module-control module-control-previous">Previous module</span>
-                <a href="{{prevSubmodule.link}}" class="btn btn-default">
-                    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
-                    {{prevSubmodule.text}}
-                </a>
-            </p>
-        {{/if}}
+    <div class="row">
+        <div class="col-xs-6">
+            {{#if prevSubmodule}}
+                <p>
+                    <span class="module-control module-control-previous">Previous module</span>
+                    <a href="{{prevSubmodule.link}}" class="btn btn-default">
+                        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                        {{prevSubmodule.number}} - {{prevSubmodule.text}}
+                    </a>
+                </p>
+            {{/if}}
+        </div>
+        <div class="col-xs-6">
+            {{#if nextSubmodule}}
+                <p style="text-align: right">
 
-        {{#if nextSubmodule}}
-            <p style="text-align: right">
+                    <span class="module-control module-control-next">Next module</span>
+                    <a href="{{nextSubmodule.link}}" class="btn btn-default">
+                        {{nextSubmodule.number}} - {{nextSubmodule.text}}
+                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                    </a>
+                </p>
+            {{/if}}
+        </div>
+    </div>
 
-                <span class="module-control module-control-next">Next module</span>
-                <a href="{{nextSubmodule.link}}" class="btn btn-default">
-                    {{nextSubmodule.text}}
-                    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
-                </a>
-            </p>
-        {{/if}}
+
+
+
     <hr/>
     <div class="module-footnotes">
         {{#if footnotes}}
@@ -59,10 +62,6 @@
     </div>
 </div>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js">
-
-</script>
 <script>
 
     var sidebar = document.querySelector('.sidebar');
