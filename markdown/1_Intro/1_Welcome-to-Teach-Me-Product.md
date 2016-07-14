@@ -55,4 +55,4 @@ My name is Saksham Uppal and I **love** the craft of product management. I was r
 
 ## Feedback
 
-If you have feedback on how to improve the site or are interested in getting in touch, send me an email at: teachmeproduct \[at\] gmail.com.
+If you have feedback on how to improve the site or are interested in getting in touch, send me an email at: info \[at\] teachmeproduct.com.

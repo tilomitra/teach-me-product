@@ -29,7 +29,7 @@ Product management is an essential practice in software companies and can includ
 
 In larger organizations, product management is usually a distinct function that works with other functions such as Engineering, Design, Marketing, etc. In much smaller companies, say a 5-person startup, functions may not be as well defined, as everyone is wearing multiple hats and duties are more fluid. In this case, product management duties could be done by one or more people.
 
-**Further reading on product management and its role in an organization:**
+##### Further reading on product management and its role in an organization:
 -   [Why Companies Need Full-Time Product Managers](https://www.smashingmagazine.com/2014/09/why-companies-need-full-time-product-managers/) by Rian van der Merwe
 -   [The Black Box of product management](https://medium.com/swlh/the-black-box-of-product-management-3feb65db6ddb#.6cj7ysbel) by Brandon Chu
 -   [What is product management?](http://blog.sueraisty.com/what-is-product-management/) by Sue Raisty
@@ -83,7 +83,7 @@ It's worthwhile to note that PMs may also partner closely with the following tea
 
 -   **Finance** - Focuses on managing, reporting, and projecting finances for the company (e.g., how many paid subscribers do we have, how much reoccurring monthly revenue do we project, and what are our expenses).
 
-**Learn more about how others organize and adapt their product teams:**
+##### Learn more about how others organize and adapt their product teams:
 -   [We’ve Changed Our Product Team Structure 4 Times: Here’s Where We Are Today](https://open.buffer.com/product-team-evolution/) by Courtney Seiter
 -   [What Your Product Team Says About Your Company Values](http://www.producttalk.org/2015/10/ideal-product-team/) by Teresa Torres
 
@@ -169,8 +169,7 @@ Often times, in order to deliver, you need to assume roles including:
 -   **Fortune-teller** - You foresee potential opportunities or risks, and work to pursue or mitigate them, respectively.
 -   **Negotiator** - You win members of your team and company over to your side.
 
-<br>
-**I encourage you to read these additional perspectives on the PM role:**
+##### I encourage you to read these additional perspectives on the PM role:
 -   [A Product Manager’s Job](https://medium.com/@joshelman/a-product-managers-job-63c09a43d0ec#.ovrm5dp44) by Josh Elman
 -   [Product Manager You Are… a janitor, essentially](https://medium.com/@matbalez/product-manager-you-are-664d83ee702e#.e39puajeh) by Mat Balez
 -   [MVPM: Minimum Viable Product Manager](https://medium.com/swlh/mvpm-minimum-viable-product-manager-e1aeb8dd421#.va5bl12ef) by Brandon Chu
@@ -212,7 +211,7 @@ The key takeaway is that there is a lot of variability and demands on your time.
 
 When I first started, I thought I needed to join every relevant meeting and speak to every stakeholder that wanted to speak with me. This led to meetings being the bulk of my day, and then me trying to work on my own tasks during the early mornings or nights. This is not recommended or sustainable in the long-term. I learned to be more effective by knowing (1) what was important (i.e., which actions would help me best deliver value to customers, empower my teams, and bring others along on the journey), and (2) what could be handled in other ways (e.g., responding with an email instead of a 30-minute meeting or nicely saying "no, I don't think this is a priority"). I also found that being very intentional about meetings helped cut down on them. Specifically, I needed to be confident that a meeting was needed and clear about necessary decisions/outcomes. I would prepare an agenda to share with attendees in advance and ensured that no necessary attendees were missed (which often results in a future follow-up meeting). As with any business owner, a PMs success is often dictated by what they say no to. Saying no to feature requests. Saying no to meetings. A good product manager is mindful of their time.
 
-**Here are additional perspectives on the day-to-day PM experience:**
+##### Here are additional perspectives on the day-to-day PM experience:
 -   [So, What Do You Actually Do As A Product Manager?](https://medium.com/all-things-product-management/so-what-do-you-actually-do-as-a-product-manager-6baf424148c1#.ga3henb0d) by Catherine Shyu
 -   [Day In the Life of a Product Manager](https://www.productmanagerhq.com/2014/06/day-in-the-life-of-a-product-manager/) on Product Manager HQ
 -   [What is a day in the life of a Product Manager like?](https://www.quora.com/What-is-a-day-in-the-life-of-a-Product-Manager-like) on Quora
@@ -240,7 +239,7 @@ A bulk of your role involves making weighing trade-offs (e.g., do we go with sol
 
 To make better decisions, you should try to come up with a set of relevant criteria and evaluate decisions against it. This comes with practice, and at first you'll likely need to invest thoughtful time upfront to do so. As you get better, this will become second nature and you'll find yourself doing it on the fly. It's worthwhile to note that structured decision making does not imply you make a 10-criteria matrix for every single decision and try to check off every box. For instance, if you're finding users are struggling to see a gray font on a white background, you likely don't need to over deliberate on what possible improvements may be. Use your judgement - if a non-obvious decision needs to be made, put on your structured decision-making hat!
 
-**Read the following if you're interested in learning more about decision-making in a product context:**
+##### Read the following if you're interested in learning more about decision-making in a product context:
 -   [6 decision-making techniques all Product Managers should know](https://blog.pivotal.io/labs/labs/6-decision-making-techniques-product-managers-know) by Joanna Beltowska
 -   [How To Turn Bad Ideas Into Good Ideas](http://www.producttalk.org/2014/02/how-to-turn-bad-ideas-into-good-ideas/) by Teresa Torres
 -   [Don’t Make Snap Product Decisions](http://www.producttalk.org/2013/10/dont-make-snap-product-decisions/) by Teresa Torres
@@ -271,8 +270,8 @@ Take a look at Medha Ghatikesh's infographic below - it captures many of the asp
 
 <img src="/images/pm_manifesto.png" width="371" height="529" />
 [*The PM's Manifesto (Source: Medha Ghatikesh on Medium)*](https://medium.com/medha-ghatikesh/the-product-manager-s-manifesto-infographic-633527b2567e#.aqgorjr9u "Caption")
-<br>
-**This is my perspective. Here are additional thoughts on the common characteristics of successful PMs:**
+
+##### Here are additional thoughts on the common characteristics of successful PMs:
 -   [What distinguishes the Top 1% of Product Managers from the Top 10%?](https://www.quora.com/What-distinguishes-the-Top-1-of-Product-Managers-from-the-Top-10) on Quora
 -   [Good Product Manager/Bad Product manager](http://www.khoslaventures.com/wp-content/uploads/Good_Product_Manager_Bad_Product_Manager_KV.pdf) by Ben Horowitz and David Weiden. Note: Horowitz recently suggested that having been written 15+ years ago, much of this likely isn't relevant; however, I feel there still many valuable points in it
 -   [Why Companies Need Full-Time Product Managers - Characteristics Of A Good Product Manager](https://www.smashingmagazine.com/2014/09/why-companies-need-full-time-product-managers/#characteristics-of-a-good-product-manager) by Rian van der Merwe
@@ -316,7 +315,7 @@ It may seem that Waterfall is a thing of the past. Back in the days of CD-ROM ba
 
 There are still applications though where Waterfall practices are more appropriate than Agile (e.g., think of mission critical software such as what's run in a Nuclear Plant). Beyond software, aspects of the Waterfall approach are also used in developing new technologies. For instance, companies like Fitbit don't release work-in-progress devices on a bi-weekly basis. Instead, they are more thoughtful upfront about their product roadmap and what physical components need to include in their devices for possible future development of new features. This way, they can sell a watch, build a new feature later, and then just get customers to update their software to receive the new functionality.
 
-**In case you're interested, here is additional reading on software development approaches:**
+##### In case you're interested, here is additional reading on software development approaches:
 -   More detailed comparison between Waterfall and Agile captured [here](http://www.seguetech.com/blog/2013/07/05/waterfall-vs-agile-right-development-methodology) and [here](http://covalentmarketing.com/blog/2015/10/19/software-development-lifecycle-waterfall-vs-agile-2/)
 -   [What are the pros and cons of the waterfall and agile/scrum project management approach?](https://www.quora.com/What-are-the-pros-and-cons-of-the-waterfall-and-agile-scrum-project-management-approach) on Quora
 -   History into the evolution of different software development approaches and an overview into several other variations on Wikipedia [here](https://en.wikipedia.org/wiki/Software_development_process)
