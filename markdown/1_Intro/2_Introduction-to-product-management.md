@@ -301,6 +301,7 @@ The framework has its origins in physical products (that's why you see reference
 The software development life cycle refers to the process of planning, designing, and developing software. As expected, there are several different ways of doing so; each have their own pros and cons and are applicable in different product scenarios. Two major approaches to be familiar with are:
 
 -   **Waterfall** (also called Traditional Development) has a sequenced approach to software development, where the key stages in the diagram below are completed one after another.
+
 <img src="/images/waterfall.jpeg" width="490" height="177" />
 [*The Waterfall approach is sequential and can span several months (Source: Screenmedia)*](http://www.screenmedia.co.uk/blog/2014/08/what-is-agile-development-a-brief-introduction/ "Caption")
 
