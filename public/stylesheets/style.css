@@ -56,11 +56,21 @@ footer {
     transition: all 0.3s;
 }
 .btn-default:hover {
-    /*background: #DAFF19; */
+    background: #2570b1;
+}
+.btn-success {
     background: #b6d53b;
     color: black !important;
     border: none;
+    transition: all 0.3s;
 }
+.btn:disabled, .btn:disabled:hover {
+    background: #b6d53b;
+    color: black !important;
+    border: none;
+    transition: all 0.3s;
+}
+
 
 h2 {
     margin: 30px 0 10px 0;
@@ -95,7 +105,7 @@ a, a:visited {
 }
 
 a:hover {
-    color: #577de8;
+    color: #2B7EC6;
 }
 
 .banner {
@@ -123,7 +133,17 @@ a:hover {
   transition: border-color 0.3s;
 }
 .banner .arrow-down:hover {
-    border: 3px solid #b6d53b;
+    /*border: 3px solid #fff;*/
+    display: inline-block;
+    background: url('/images/arrow-down-hover.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 3px solid transparent;
+    transition: border-color 0.3s;
 }
 
 
@@ -159,6 +179,7 @@ a:hover {
 }
 
 .banner .btn-cta {
+ /* 
     margin-top: 20px;
     color: #fff;
     border-radius: 4px;
@@ -166,7 +187,28 @@ a:hover {
     background: #2C82CD;
     font-size: 18px;
     border: none;
+*/
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 4px;
+    background: #2C82CD;
+    font-size: 18px;
+    border: none;
 }
+
+.banner .btn-cta:hover {
+ /* 
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    background: #2C82CD;
+    font-size: 18px;
+    border: none;
+*/
+    background: #2570b1;
+}
+
 
 .chapter {
     border-bottom: 1px solid #ddd;
@@ -348,7 +390,7 @@ a:hover {
 }
 
 .nav-active {
-    color: #577de8 !important;
+    color: #2B7EC6 !important;
 }
 
 .submodule {
@@ -391,7 +433,7 @@ a:hover {
     color: white;
     letter-spacing: 0.1em;
     transition: all 0.5s;
-    cursor: pointer;
+    cursor: pointer;d
 }
 
 #topbar .navbar-brand img {
