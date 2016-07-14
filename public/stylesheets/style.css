@@ -45,6 +45,11 @@ h4 {
     line-height: 1.7;
     color: #555;
 }
+.module-title h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .informational h2{
     padding-top: 15px;
     font-weight: 400;
@@ -238,7 +243,7 @@ a:hover {
     margin: 100px auto 50px;
 }
 .module-body img {
-    max-width: 400px;
+/*    max-width: 400px; */
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -507,12 +512,19 @@ a:hover {
         line-height: 1.6;
     }
 
-    .module-body iframe,
     .module-body img {
-        width: 360px !important;
+        max-width: 360px !important;
+        height: auto;
         overflow: hidden !important;
         margin-left: 0 auto;
     }
+
+    .module-body iframe {
+        max-width: 360px !important;
+        overflow: hidden !important;
+        margin-left: 0 auto;
+    }
+
 
     .menu-section-subtitle,
     .menu-section-header {
