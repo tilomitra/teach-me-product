@@ -298,7 +298,7 @@ a:hover {
 .module-written-by {
     margin-bottom: 20px;
     font-size: 12px;
-    padding-left: 75px;
+   /* padding-left: 75px;*/
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.2em;
