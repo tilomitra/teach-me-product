@@ -193,7 +193,7 @@ Now that we've covered the responsibilities of a PM, there's also a variety of a
 -   **Are not finished once the product ships** - You're usually tasked with having a product or feature that you release meet some target outcome so your job doesn't end after you ship. Instead, after you ship, you usually iterate by reviewing how your product/feature is doing, and improving facets, such as functionality or quality.
 
 
-If you want a chuckle about the PM role watch this short clip: 
+If you want a laugh about the PM role watch this short clip: 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZiBeKrwfU90" frameborder="0" allowfullscreen></iframe>
 
 

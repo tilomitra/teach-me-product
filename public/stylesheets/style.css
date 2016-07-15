@@ -44,6 +44,7 @@ h4 {
     font-size: 17px;
     line-height: 1.7;
     color: #555;
+    line-height: 1.4;
 }
 .module-title h2{
     font-size: 30px;
@@ -522,7 +523,7 @@ a:hover {
     }
 
     .module-body iframe {
-        max-width: 320px !important;
+        max-width: 330px !important;
         overflow: hidden !important;
         margin-left: 0 auto;
     }
