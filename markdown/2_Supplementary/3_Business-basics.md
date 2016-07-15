@@ -5,8 +5,6 @@ Draft: true
 Excerpt: Learn business fundamentals in the context of the PM role. This module covers business fundamentals and analyses, the business case, the business model, and the business model canvas.
 ---
 
-# Business basics
-
 *Many of the products you know and love are mainstream successes not only because they are well designed, but also because the companies behind have figured out a viable business model to sustain and grow their efforts. Beyond just the end product, these companies have developed thriving businesses that allow them to design, build, sell, and support their products. As a PM, you will be making and guiding numerous product decisions that will influence your product’s outcome, and as a result your company's success. As was mentioned in module 1, it's important for you to be the voice of the business amongst your product team.*
 
 *For most PM roles, you don't need an MBA - it's the mindset that counts. By understanding business fundamentals and their applicability to your company and product, you can guide your team to make better product decisions. Don't forget, even the best designed products are not guaranteed to succeed in the market. Additional factors, especially those in the business domain, play a part. Some of these factors are in your control (e.g., pricing, promotion, etc.) while others are not (e.g., competition, customer preference, etc.). We cover some business jargon and fundamentals in this module. You may not encounter these outright in your day-to-day as a PM; however, learning about them helps you get into a frame of mind where you consider business implications.*

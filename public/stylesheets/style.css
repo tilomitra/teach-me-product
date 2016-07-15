@@ -92,6 +92,8 @@ footer {
     color: white !important;
     border: none;
     transition: all 0.3s;
+    white-space: normal;
+    text-align: left;
 }
 .btn-default:hover {
     background: #2570b1;

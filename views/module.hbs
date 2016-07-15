@@ -23,32 +23,30 @@
 
 
     <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-5">
             {{#if prevSubmodule}}
                 <p>
                     <span class="module-control module-control-previous">Previous module</span>
                     <a href="{{prevSubmodule.shortLink}}" class="btn btn-default">
-                        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
-                        {{prevSubmodule.number}} - {{prevSubmodule.text}}
+                        <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+                        {{prevSubmodule.text}}
                     </a>
                 </p>
             {{/if}}
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-5 text-right pull-right">
             {{#if nextSubmodule}}
-                <p style="text-align: right">
-
+                <p>    
+                <!-- <p style="text-align: right"> -->
                     <span class="module-control module-control-next">Next module</span>
                     <a href="{{nextSubmodule.shortLink}}" class="btn btn-default">
-                        {{nextSubmodule.number}} - {{nextSubmodule.text}}
-                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                        {{nextSubmodule.text}}
                     </a>
                 </p>
             {{/if}}
         </div>
     </div>
-
-
 
 
     <hr/>
