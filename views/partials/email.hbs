@@ -3,11 +3,11 @@
     <div class="email-signup">
         <h5>Want to be alerted when we release new content?</h5>
        <!-- <span class="subhead">We won't spam your inbox and will send 1-2 mails a month.</span> -->
-        <form id="email-signup-form">
+        <form class="email-signup-form">
             <div class="input-group">
-                <input type="text" class="form-control" id="newsletter-email" placeholder="Your email" required>
+                <input type="text" class="form-control newsletter-email" placeholder="Your email" required>
                 <span class="input-group-btn">
-                    <button type="submit" class="btn btn-default" id="newsletter-submit-btn">Subscribe</button>
+                    <button type="submit" class="btn btn-default newsletter-submit-btn">Subscribe</button>
                 </span>
             </div>
         </form>
@@ -15,10 +15,10 @@
 </div>
 
 <script>
-    $('#email-signup-form').submit(function (e) {
+    $('.email-signup-form').submit(function (e) {
         e.preventDefault();
 
-        var email = $('#newsletter-email').val();
+        var email = $('.newsletter-email').val();
 
         if (email) {
             mixpanel.identify();
@@ -28,8 +28,8 @@
             });
         }
 
-        $('#newsletter-submit-btn').html('Subscribed!');
-        $('#newsletter-submit-btn').removeClass('btn-default')
+        $('.newsletter-submit-btn').html('Subscribed!');
+        $('.newsletter-submit-btn').removeClass('btn-default')
         .addClass('btn-success')
         .prop('disabled', true);
     });
