@@ -515,14 +515,14 @@ a:hover {
     }
 
     .module-body img {
-        max-width: 360px !important;
+        max-width: 330px !important;
         height: auto;
         overflow: hidden !important;
         margin-left: 0 auto;
     }
 
     .module-body iframe {
-        max-width: 360px !important;
+        max-width: 320px !important;
         overflow: hidden !important;
         margin-left: 0 auto;
     }
